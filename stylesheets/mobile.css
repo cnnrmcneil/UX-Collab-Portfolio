@@ -71,3 +71,21 @@ header li a:hover {
 #fourthCaseStudy {
   background-color: fuchsia;
 }
+
+footer{
+  background-color: burlywood;
+  display: flex;
+  flex-direction: column;
+}
+
+#logoResume{
+  display: flex;
+  flex-direction: row;
+  background-color: cadetblue;
+  justify-content: space-between;
+}
+
+#logoResume img{
+  width:26px;
+  height: 12.19px;
+}
