@@ -4,6 +4,8 @@ header {
   flex-direction: column;
   height: 35vh;
   background-color: grey;
+  justify-content: space-around;
+  align-items: center;
   text-rendering: auto;
 }
 
