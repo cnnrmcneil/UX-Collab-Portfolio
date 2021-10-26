@@ -3,7 +3,7 @@ header {
   display: flex;
   flex-direction: column;
   height: 35vh;
-  background-color: grey;
+  background-color: rgb(73, 73, 73);
   justify-content: space-around;
   align-items: center;
 }
@@ -18,8 +18,13 @@ header {
   background-color: brown;
 }
 header p {
-  background-color: white;
+  background-color: black;
+  display: inline;
+  color: white;
   text-align: center;
+  font-size: 10px;
+  white-space: nowrap;
+  overflow: hidden;
 }
 header:nth-child(3) {
   justify-content: flex-end;
