@@ -36,8 +36,10 @@ li {
 }
 ul li a {
   border: 0.1px solid #000000;
-  padding: 0.2vh;
-  background-color: cadetblue;
+  padding: 0.4vh;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 header li a:hover {
   background-color: #f4f4f4;
