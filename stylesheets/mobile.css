@@ -4,8 +4,6 @@ header {
   flex-direction: column;
   height: 35vh;
   background-color: grey;
-  align-items: center;
-  justify-content: space-around;
 }
 
 #logo {
@@ -21,18 +19,24 @@ header p {
   background-color: white;
   text-align: center;
 }
-
+header:nth-child(3) {
+  justify-content: flex-end;
+  align-items: center;
+}
 ul {
   background-color: blue;
 }
 li {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 ul li a {
-  border: 0.1px solid #000000;
-  padding: 0.2vh;
+  border: 1px solid #8b8b8b;
+  padding-right: 2vw;
+  padding-left: 2vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  border-top: 100%;
+  text-shadow: 1 0.1em 0.1em rgba(0, 0, 0, 0.35);
+  border-bottom: 100%;
   background-color: cadetblue;
 }
 header li a:hover {
@@ -40,4 +44,13 @@ header li a:hover {
 }
 
 .bioCase {
+  display: flex;
+  flex-direction: column;
+  background-color: green;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#firstCaseStudy{
+  background-color: yellow;
 }
