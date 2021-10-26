@@ -17,6 +17,7 @@ header {
 }
 header p {
   background-color: white;
+  text-align: center;
 }
 header:nth-child(3) {
   justify-content: flex-end;
