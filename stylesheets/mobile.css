@@ -25,19 +25,22 @@ header:nth-child(3) {
 }
 ul {
   background-color: blue;
+  justify-content: center;
+  display: flex;
+  width: 3%;
+  justify-content: flex-end;
 }
 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 ul li a {
-  border: 1px solid #8b8b8b;
-  padding-right: 2vw;
-  padding-left: 2vw;
-  padding-top: 1vh;
-  padding-bottom: 1vh;
-  border-top: 100%;
-  text-shadow: 1 0.1em 0.1em rgba(0, 0, 0, 0.35);
-  border-bottom: 100%;
-  background-color: cadetblue;
+  border: 0.1px solid #000000;
+  padding: 0.4vh;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 header li a:hover {
   background-color: #f4f4f4;
