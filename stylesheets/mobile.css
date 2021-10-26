@@ -53,23 +53,56 @@ header li a:hover {
   flex-direction: column;
   background-color: green;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 #firstCaseStudy {
   background-color: yellow;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#firstCaseStudy img{
+  width: 422px;
+  height: 294px;
+  border-radius: 16px;
 }
 
 #secondCaseStudy {
   background-color: blue;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+#secondCaseStudy img{
+  width: 422px;
+  height: 294px;
+  border-radius: 16px;
 }
 
 #thirdCaseStudy {
   background-color: red;
+  border-radius: 16px;
+  margin-bottom: 10px;
+}
+
+#thirdCaseStudy img{
+  width: 422px;
+  height: 294px;
+  border-radius: 16px;
 }
 
 #fourthCaseStudy {
   background-color: fuchsia;
+  border-radius: 16px;
+  margin-bottom: 20px;
+}
+
+#fourthCaseStudy img{
+  width: 422px;
+  height: 294px;
+  border-radius: 16px;
 }
 
 footer{
@@ -83,9 +116,54 @@ footer{
   flex-direction: row;
   background-color: cadetblue;
   justify-content: space-between;
+  padding: 20px 15px 50px 10px ;
+  border-bottom: 1px solid #282828;
 }
 
 #logoResume img{
   width:26px;
   height: 12.19px;
+}
+
+#resume{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+}
+
+#contactInfo{
+  background-color: coral;
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 8px;
+}
+
+#contact{
+  background-color: cornflowerblue;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  padding: 5px 0px 20px 30px ;
+}
+
+#social{
+  background-color: crimson;
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  justify-content: flex-start;
+  width: 50%;
+  padding: 5px 0px 20px 30px ;
+  border-left: 1px solid #282828;
+}
+
+.fab{
+  margin: 10px;
+  text-decoration: none;
 }
