@@ -4,6 +4,7 @@ header {
   flex-direction: column;
   height: 35vh;
   background-color: grey;
+  text-rendering: auto;
 }
 
 #logo {
@@ -54,6 +55,6 @@ header li a:hover {
   justify-content: space-around;
 }
 
-#firstCaseStudy{
+#firstCaseStudy {
   background-color: yellow;
 }
