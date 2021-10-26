@@ -6,7 +6,6 @@ header {
   background-color: grey;
   justify-content: space-around;
   align-items: center;
-  text-rendering: auto;
 }
 
 #logo {
@@ -59,4 +58,16 @@ header li a:hover {
 
 #firstCaseStudy {
   background-color: yellow;
+}
+
+#secondCaseStudy {
+  background-color: blue;
+}
+
+#thirdCaseStudy {
+  background-color: red;
+}
+
+#fourthCaseStudy {
+  background-color: fuchsia;
 }
