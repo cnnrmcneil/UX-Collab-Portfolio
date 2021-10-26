@@ -26,12 +26,14 @@ ul {
   background-color: blue;
 }
 li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 ul li a {
-  border: 1px solid #8b8b8b;
-  text-shadow: 1 0.1em 0.1em rgba(0, 0, 0, 0.35);
+  border: 0.1px solid #000000;
+  padding: 0.2vh;
   background-color: cadetblue;
-  text-align: center;
 }
 header li a:hover {
   background-color: #f4f4f4;
