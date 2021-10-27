@@ -17,6 +17,7 @@ header {
   width: 8vh;
   background-color: brown;
 }
+
 header p {
   background-color: black;
   display: inline;
@@ -74,6 +75,20 @@ header li a:hover {
   border-radius: 16px;
 }
 
+#firstCaseStudy .project_name{
+  position:absolute;
+  top: 60vh;
+  color: white;
+
+}
+
+#firstCaseStudy .description{
+  position:absolute;
+  top: 63vh;
+  left: 40vw;
+  color: white;
+}
+
 #secondCaseStudy {
   background-color: blue;
   border-radius: 16px;
@@ -84,6 +99,20 @@ header li a:hover {
   width: 422px;
   height: 294px;
   border-radius: 16px;
+}
+
+#secondCaseStudy .project_name{
+  position:absolute;
+  top: 93vh;
+  color: white;
+
+}
+
+#secondCaseStudy .description{
+  position:absolute;
+  top: 96vh;
+  left: 40vw;
+  color: white;
 }
 
 #thirdCaseStudy {
@@ -98,6 +127,20 @@ header li a:hover {
   border-radius: 16px;
 }
 
+#thirdCaseStudy .project_name{
+  position:absolute;
+  top: 125vh;
+  color: white;
+
+}
+
+#thirdCaseStudy .description{
+  position:absolute;
+  top: 128vh;
+  left: 40vw;
+  color: white;
+}
+
 #fourthCaseStudy {
   background-color: fuchsia;
   border-radius: 16px;
@@ -110,6 +153,19 @@ header li a:hover {
   border-radius: 16px;
 }
 
+#fourthCaseStudy .project_name{
+  position:absolute;
+  top: 158vh;
+  color: white;
+
+}
+
+#fourthCaseStudy .description{
+  position:absolute;
+  top: 161vh;
+  left: 40vw;
+  color: white;
+}
 
 footer{
   background-color: burlywood;
