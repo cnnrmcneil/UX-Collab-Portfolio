@@ -8,10 +8,11 @@
   display: flex;
   flex-direction: column;
   height: 35vh;
-  background-color: rgb(73, 73, 73);
+  background-color: rgba(24, 24, 24, 1);
   justify-content: space-around;
   align-items: center;
   background-position: center;
+  background-repeat: no-repeat;
 }
 
 #logo {
@@ -54,7 +55,7 @@
 .bioCase {
   display: flex;
   flex-direction: column;
-  /* background-color: green; */
+  background-color: rgba(24, 24, 24, 1);
   align-items: center;
   justify-content: space-between;
 }
@@ -137,7 +138,7 @@
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   animation-duration: 3s;
   width: 90vw;
   height: 24vh;

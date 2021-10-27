@@ -6,40 +6,43 @@ body {
   display: flex;
   flex-direction: column;
   height: 120vh;
-  background-color: rgb(73, 73, 73);
   justify-content: space-around;
   align-items: center;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-color: rgba(24, 24, 24, 1);
 }
 
 #logo {
   display: flex;
   align-self: flex-start;
-  margin-left: 2vw;
-  margin-top: 2vh;
+  margin-left: 8vw;
+  margin-top: 10vh;
+  width: 100%;
 }
-.logo {
-  margin-top: 2vh;
-  width: 8vh;
+.homeHeader > *:nth-child(2) {
+  flex-grow: 0.3;
 }
 .homeHeader h1 {
+  font-size: 60px;
   color: white;
-  font-weight: bold;
+  font-weight: 700;
 }
 .headerP {
   display: inline;
   color: white;
   text-align: center;
-  font-size: 10px;
+  font-size: 18px;
+  line-height: 45px;
   white-space: wrap;
-  width: 75%;
+  width: 50%;
   justify-content: flex-start;
-  height: 10vh;
+  height: 60vh;
 }
 .homeHeader ul {
   background-color: blue;
+  flex-grow: 0.9;
 }
 .homeHeader ul li {
   text-align: start;
@@ -55,10 +58,12 @@ body {
 
 .bioCase {
   display: flex;
-  flex-direction: column;
-  /* background-color: green; */
+  flex-direction: row;
+  background-color: rgba(24, 24, 24, 1);
   align-items: center;
+  flex-wrap: wrap;
   justify-content: space-between;
+  align-content: center;
 }
 
 #firstCaseStudy {
@@ -68,7 +73,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   animation-duration: 3s;
-  width: 90vw;
+  width: 30vw;
   height: 24vh;
   display: flex;
   justify-content: center;
@@ -92,7 +97,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   animation-duration: 3s;
-  width: 90vw;
+  width: 30vw;
   height: 24vh;
   display: flex;
   justify-content: center;
@@ -117,7 +122,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   animation-duration: 3s;
-  width: 90vw;
+  width: 30vw;
   height: 24vh;
   display: flex;
   justify-content: center;
@@ -141,7 +146,7 @@ body {
   margin-top: 10px;
   margin-bottom: 10px;
   animation-duration: 3s;
-  width: 90vw;
+  width: 30vw;
   height: 24vh;
   display: flex;
   justify-content: center;
