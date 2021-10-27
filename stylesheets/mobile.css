@@ -69,105 +69,67 @@ header li a:hover {
 }
 
 #firstCaseStudy {
-  /* background-color: yellow; */
+  background-image: url("/images/yoga.jpg");
+  background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
   animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-
-#firstCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
-  animation-duration: 3s;
-}
-
 #firstCaseStudy .project_name {
-  position: absolute;
-  top: 60vh;
   color: white;
 }
 
 #firstCaseStudy .description {
-  position: absolute;
-  top: 63vh;
-  left: 40vw;
   color: white;
 }
 
 #secondCaseStudy {
-  /* background-color: blue; */
+  background-image: url("/images/yoga.jpg");
+  background-size: cover;
   border-radius: 16px;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-#secondCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #secondCaseStudy .project_name {
-  position: absolute;
-  top: 93vh;
   color: white;
 }
 
 #secondCaseStudy .description {
-  position: absolute;
-  top: 96vh;
-  left: 40vw;
   color: white;
 }
 
 #thirdCaseStudy {
-  /* background-color: red; */
+  background-image: url("/images/yoga.jpg");
+  background-size: cover;
   border-radius: 16px;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-#thirdCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #thirdCaseStudy .project_name {
-  position: absolute;
-  top: 125vh;
   color: white;
 }
 
 #thirdCaseStudy .description {
-  position: absolute;
-  top: 128vh;
-  left: 40vw;
-  color: white;
-}
-
-#fourthCaseStudy {
-  /* background-color: fuchsia; */
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
-
-#fourthCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
-}
-
-#fourthCaseStudy .project_name {
-  position: absolute;
-  top: 158vh;
-  color: white;
-}
-
-#fourthCaseStudy .description {
-  position: absolute;
-  top: 161vh;
-  left: 40vw;
   color: white;
 }
 
@@ -226,13 +188,6 @@ footer {
   align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
-<<<<<<< HEAD
-  padding: 5px 0px 20px 30px ;
-  border-left: 1px solid #282828;
-}
-
-.fab{
-=======
   flex-wrap: wrap;
   padding: 5px 0px 5px 30px;
   border-left: 1px solid #282828;
@@ -243,7 +198,6 @@ h4 {
   line-height: 0px;
 }
 .fab {
->>>>>>> 4505b17a7c934236d6191f4c5e46629542e40ac5
   margin: 10px;
   text-decoration: none;
 }
