@@ -1,10 +1,238 @@
 body {
   margin: 0;
 }
-header {
+.homeHeader {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 120vh;
+  background-color: rgb(73, 73, 73);
+  justify-content: space-around;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
+#logo {
+  display: flex;
+  align-self: flex-start;
+  margin-left: 2vw;
+  margin-top: 2vh;
+}
 .logo {
+  margin-top: 2vh;
   width: 8vh;
+}
+.homeHeader h1 {
+  color: white;
+  font-weight: bold;
+}
+.headerP {
+  display: inline;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  white-space: wrap;
+  width: 75%;
+  justify-content: flex-start;
+  height: 10vh;
+}
+.homeHeader ul {
+  background-color: blue;
+}
+.homeHeader ul li {
+  text-align: start;
+}
+.homeHeader ul li a {
+  height: 2vh;
+  color: white;
+  text-align: start;
+}
+.homeHeader li a:hover {
+  background-color: #424242;
+}
+
+.bioCase {
+  display: flex;
+  flex-direction: column;
+  /* background-color: green; */
+  align-items: center;
+  justify-content: space-between;
+}
+
+#firstCaseStudy {
+  background-image: url("../images/yoga.jpg");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+#firstCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+}
+
+#firstCaseStudy .description {
+  color: white;
+  font-size: 10px;
+}
+
+#secondCaseStudy {
+  background-image: url("../images/2nd\ box.png");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#secondCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+}
+
+#secondCaseStudy .description {
+  font-size: 10px;
+  color: white;
+}
+
+#thirdCaseStudy {
+  background-image: url("../images/3rd\ box.png");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#thirdCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+}
+
+#thirdCaseStudy .description {
+  font-size: 10px;
+  color: white;
+}
+#fourthCaseStudy {
+  background-image: url("../images/4th\ box.png");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#fourthCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+}
+
+#fourthCaseStudy .description {
+  font-size: 10px;
+  color: white;
+}
+
+footer {
+  background-color: rgba(208, 208, 208, 1);
+  display: flex;
+  flex-direction: column;
+}
+
+#logoResume {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 20px 15px 50px 10px;
+  border-bottom: 1px solid #282828;
+}
+
+#logoResume img {
+  width: 39.68px;
+  height: 25px;
+}
+
+#resume {
+  font-family: Roboto;
+  text-decoration: none;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: normal;
+  color: black;
+  font-size: 14px;
+  height: 2vh;
+}
+
+#contactInfo {
+  display: flex;
+  justify-content: space-between;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+#contact {
+  /* background-color: cornflowerblue; */
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  font-size: 7px;
+  font-weight: bold;
+  padding: 5px 0px 0px 30px;
+}
+#contact a {
+  text-decoration: none;
+  color: black;
+}
+
+#social {
+  /* background-color: crimson; */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  width: 50%;
+  font-size: 7px;
+  flex-wrap: wrap;
+  padding: 5px 0px 5px 30px;
+  border-left: 1px solid #282828;
+}
+#social :nth-child(2) {
+  margin-left: 0vw;
+}
+#social p {
+  padding-right: 32vw;
+  font-weight: bold;
+  height: 0px;
+}
+.fab {
+  margin: 10px;
+  text-decoration: none;
 }

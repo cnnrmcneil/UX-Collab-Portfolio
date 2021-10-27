@@ -22,7 +22,10 @@
   margin-top: 2vh;
   width: 8vh;
 }
-
+.homeHeader h1 {
+  color: white;
+  font-weight: bold;
+}
 .headerP {
   display: inline;
   color: white;
@@ -57,7 +60,7 @@
 }
 
 #firstCaseStudy {
-  background-image: url("/images/yoga.jpg");
+  background-image: url("../images/yoga.jpg");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -81,7 +84,7 @@
 }
 
 #secondCaseStudy {
-  background-image: url("/images/2nd\ box.png");
+  background-image: url("../images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -106,7 +109,7 @@
 }
 
 #thirdCaseStudy {
-  background-image: url("/images/3rd\ box.png");
+  background-image: url("../images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -130,7 +133,7 @@
   color: white;
 }
 #fourthCaseStudy {
-  background-image: url("/images/4th\ box.png");
+  background-image: url("../images/4th\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -233,11 +236,8 @@ footer {
 }
 
 
-//Section1
-#cs1_main section p{
-  padding: 70px 10px;
-}
 
+/* Section 1 */
 #section1_CS1 {
   display: flex;
   flex-flow: column wrap;
@@ -263,7 +263,6 @@ footer {
   justify-content: space-evenly;
 }
 
-
 #section2_CS1 {
   display: flex;
   flex-flow: column wrap;
@@ -287,8 +286,7 @@ footer {
   text-align: start;
 }
 
-
-#section3_CS1{
+#section3_CS1 {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -297,11 +295,11 @@ footer {
   margin-top: 50px;
 }
 
-main img{
+main img {
   width: 100%;
 }
 
-#section4_CS1{
+#section4_CS1 {
   margin-top: 50px;
   display: flex;
   flex-flow: column wrap;
@@ -310,7 +308,7 @@ main img{
   margin-top: 50px;
 }
 
-#section5_CS1{
+#section5_CS1 {
   display: flex;
   flex-flow: column wrap;
   margin-top: 50px;
@@ -318,28 +316,28 @@ main img{
   justify-content: space-evenly;
 }
 
-#section6_CS1{
+#section6_CS1 {
   display: flex;
   flex-flow: column wrap;
-  margin-top: 50px;  
+  margin-top: 50px;
   text-align: center;
   justify-content: space-evenly;
 }
 
-#section7_CS1{
+#section7_CS1 {
   display: flex;
   flex-flow: column wrap;
-  margin-top: 50px;  
+  margin-top: 50px;
   text-align: center;
   justify-content: space-evenly;
 }
 
-#takeawaysCS1 ul li{
+#takeawaysCS1 ul li {
   list-style-type: disc;
   text-align: start;
 }
 
-#arrowsCS1{
+#arrowsCS1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
