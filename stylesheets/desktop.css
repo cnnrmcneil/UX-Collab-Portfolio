@@ -5,7 +5,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 120vh;
+  height: 100%;
   justify-content: space-around;
   align-items: center;
   background-position: top;
@@ -62,8 +62,10 @@ body {
   background-color: rgba(24, 24, 24, 1);
   align-items: center;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-content: center;
+  height: 75vh;
+  max-width: 877px;
 }
 
 #firstCaseStudy {
@@ -72,9 +74,11 @@ body {
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: auto;
   animation-duration: 3s;
-  width: 30vw;
-  height: 24vh;
+  width: 420px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -96,9 +100,11 @@ body {
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: auto;
   animation-duration: 3s;
-  width: 30vw;
-  height: 24vh;
+  width: 420px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -120,10 +126,12 @@ body {
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
+  margin-right: 10px;
   margin-bottom: 10px;
+  margin-left: auto;
   animation-duration: 3s;
-  width: 30vw;
-  height: 24vh;
+  width: 420px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -144,10 +152,12 @@ body {
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
+  margin-left: 10px;
+  margin-right: auto;
   margin-bottom: 10px;
   animation-duration: 3s;
-  width: 30vw;
-  height: 24vh;
+  width: 420px;
+  height: 260px;
   display: flex;
   justify-content: center;
   align-items: flex-end;

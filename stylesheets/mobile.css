@@ -236,23 +236,19 @@ footer {
   text-decoration: none;
 }
 
-
-
-/* Section 1 */
 #section1_CS1 {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
   justify-content: space-evenly;
   /* background-color: black; */
-  margin-bottom: 66px;
 }
 
 #section1_CS1 h1 {
   text-align: center;
 }
 
-.cs1_body_text {
+.featureTextCS1 {
   text-align: center;
   padding: 5px 40px;
 }
@@ -296,7 +292,7 @@ footer {
   margin-top: 50px;
 }
 
-#cs1_main img {
+main img {
   width: 100%;
 }
 
