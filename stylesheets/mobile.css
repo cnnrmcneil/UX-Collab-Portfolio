@@ -24,39 +24,28 @@
 }
 
 .headerP {
-  background-color: black;
   display: inline;
   color: white;
   text-align: center;
   font-size: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-}
-.homeHeader:nth-child(3) {
-  justify-content: flex-end;
-  align-items: center;
+  white-space: wrap;
+  width: 75%;
+  justify-content: flex-start;
+  height: 10vh;
 }
 .homeHeader ul {
   background-color: blue;
-  justify-content: center;
-  display: flex;
-  width: 3%;
-  justify-content: flex-end;
 }
 .homeHeader ul li {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: start;
 }
 .homeHeader ul li a {
-  border: 0.1px solid #000000;
-  padding: 0.4vh;
-  background-color: black;
+  height: 2vh;
   color: white;
-  text-align: center;
+  text-align: start;
 }
 .homeHeader li a:hover {
-  background-color: #f4f4f4;
+  background-color: #424242;
 }
 
 .bioCase {
@@ -92,7 +81,7 @@
 }
 
 #secondCaseStudy {
-  background-image: url("/images/yoga.jpg");
+  background-image: url("/images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -117,7 +106,7 @@
 }
 
 #thirdCaseStudy {
-  background-image: url("/images/yoga.jpg");
+  background-image: url("/images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -140,9 +129,33 @@
   font-size: 10px;
   color: white;
 }
+#fourthCaseStudy {
+  background-image: url("/images/4th\ box.png");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#fourthCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+}
+
+#fourthCaseStudy .description {
+  font-size: 10px;
+  color: white;
+}
 
 footer {
-  /* background-color: burlywood; */
+  background-color: rgba(208, 208, 208, 1);
   display: flex;
   flex-direction: column;
 }
@@ -150,7 +163,6 @@ footer {
 #logoResume {
   display: flex;
   flex-direction: row;
-  background-color: white;
   justify-content: space-between;
   padding: 20px 15px 50px 10px;
   border-bottom: 1px solid #282828;
@@ -159,22 +171,20 @@ footer {
 #logoResume img {
   width: 39.68px;
   height: 25px;
-  background-color: #9d9d9d;
 }
 
 #resume {
   font-family: Roboto;
   text-decoration: none;
+  text-decoration: underline;
   font-style: normal;
   font-weight: normal;
   color: black;
-  background-color: gray;
   font-size: 14px;
   height: 2vh;
 }
 
 #contactInfo {
-  background-color: white;
   display: flex;
   justify-content: space-between;
   font-family: Roboto;
@@ -189,7 +199,12 @@ footer {
   flex-direction: column;
   width: 50%;
   font-size: 7px;
+  font-weight: bold;
   padding: 5px 0px 0px 30px;
+}
+#contact a {
+  text-decoration: none;
+  color: black;
 }
 
 #social {
@@ -204,8 +219,12 @@ footer {
   padding: 5px 0px 5px 30px;
   border-left: 1px solid #282828;
 }
-h4 {
-  padding-right: 29vw;
+#social :nth-child(2) {
+  margin-left: 0vw;
+}
+#social p {
+  padding-right: 32vw;
+  font-weight: bold;
   height: 0px;
 }
 .fab {
