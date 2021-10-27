@@ -236,7 +236,14 @@ footer {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
+
+
+/* Case Studies */
+#section1_CS {
+=======
 #section1_CS1 {
+>>>>>>> 62f44afe998e3e9bf9f0d5f1fedce4ed07522bf7
   display: flex;
   flex-flow: column wrap;
   text-align: center;
@@ -244,23 +251,27 @@ footer {
   /* background-color: black; */
 }
 
-#section1_CS1 h1 {
+#section1_CS h1 {
   text-align: center;
 }
 
+<<<<<<< HEAD
+.cs_body_text {
+=======
 .featureTextCS1 {
+>>>>>>> 62f44afe998e3e9bf9f0d5f1fedce4ed07522bf7
   text-align: center;
   padding: 5px 40px;
 }
 
-#featureInfoCS1 {
+#featureInfoCS {
   /* background-color: brown; */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
-#section2_CS1 {
+#section2_CS {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -271,19 +282,19 @@ footer {
   margin-top: 50px;
 }
 
-#section2_CS1 div {
+#section2_CS div {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
 }
 
-#section2_CS1 ul li {
+#section2_CS ul li {
   list-style-type: disc;
   text-align: start;
 }
 
-#section3_CS1 {
+#section3_CS {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -291,12 +302,19 @@ footer {
   text-align: center;
   margin-top: 50px;
 }
+#section3_CS ul li{
+  list-style-type: disc;
+}
 
+<<<<<<< HEAD
+#cs_main img {
+=======
 main img {
+>>>>>>> 62f44afe998e3e9bf9f0d5f1fedce4ed07522bf7
   width: 100%;
 }
 
-#section4_CS1 {
+#section4_CS {
   margin-top: 50px;
   display: flex;
   flex-flow: column wrap;
@@ -305,7 +323,7 @@ main img {
   margin-top: 50px;
 }
 
-#section5_CS1 {
+#section5_CS {
   display: flex;
   flex-flow: column wrap;
   margin-top: 50px;
@@ -313,7 +331,11 @@ main img {
   justify-content: space-evenly;
 }
 
-#section6_CS1 {
+#section5_CS ul li{
+  list-style-type: disc;
+}
+
+#section6_CS {
   display: flex;
   flex-flow: column wrap;
   margin-top: 50px;
@@ -321,7 +343,7 @@ main img {
   justify-content: space-evenly;
 }
 
-#section7_CS1 {
+#section7_CS {
   display: flex;
   flex-flow: column wrap;
   margin-top: 50px;
@@ -329,12 +351,12 @@ main img {
   justify-content: space-evenly;
 }
 
-#takeawaysCS1 ul li {
+#takeawaysCS ul li {
   list-style-type: disc;
   text-align: start;
 }
 
-#arrowsCS1 {
+#arrows {
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
