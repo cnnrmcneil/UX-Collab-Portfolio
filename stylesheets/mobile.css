@@ -350,7 +350,13 @@ footer {
   justify-content: space-around;
 }
 
-#video{
+#video-section{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.video{
   width: 100%;
   height: 100%;
 }
