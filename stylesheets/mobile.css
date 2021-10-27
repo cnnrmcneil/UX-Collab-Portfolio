@@ -22,7 +22,10 @@ body {
   margin-top: 2vh;
   width: 8vh;
 }
-
+.homeHeader h1 {
+  color: white;
+  font-weight: bold;
+}
 .headerP {
   display: inline;
   color: white;
@@ -57,7 +60,7 @@ body {
 }
 
 #firstCaseStudy {
-  background-image: url("/images/yoga.jpg");
+  background-image: url("../images/yoga.jpg");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -81,7 +84,7 @@ body {
 }
 
 #secondCaseStudy {
-  background-image: url("/images/2nd\ box.png");
+  background-image: url("../images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -106,7 +109,7 @@ body {
 }
 
 #thirdCaseStudy {
-  background-image: url("/images/3rd\ box.png");
+  background-image: url("../images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -130,7 +133,7 @@ body {
   color: white;
 }
 #fourthCaseStudy {
-  background-image: url("/images/4th\ box.png");
+  background-image: url("../images/4th\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
