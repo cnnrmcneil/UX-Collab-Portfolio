@@ -220,10 +220,15 @@ footer {
   align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
-  padding: 5px 0px 20px 30px;
+  flex-wrap: wrap;
+  padding: 5px 0px 5px 30px;
   border-left: 1px solid #282828;
 }
-
+h4 {
+  padding-right: 29vw;
+  height: 0px;
+  line-height: 0px;
+}
 .fab {
   margin: 10px;
   text-decoration: none;
