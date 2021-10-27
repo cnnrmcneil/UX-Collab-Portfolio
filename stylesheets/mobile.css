@@ -1,6 +1,9 @@
 body {
-  background-color: black;
   margin: 0px;
+}
+
+h4{
+  color: white;
 }
 
 header {
@@ -61,6 +64,7 @@ header li a:hover {
 }
 
 .bioCase {
+  background-color: black;
   display: flex;
   flex-direction: column;
   /* background-color: green; */
@@ -226,13 +230,6 @@ footer {
   align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
-<<<<<<< HEAD
-  padding: 5px 0px 20px 30px ;
-  border-left: 1px solid #282828;
-}
-
-.fab{
-=======
   flex-wrap: wrap;
   padding: 5px 0px 5px 30px;
   border-left: 1px solid #282828;
@@ -243,7 +240,6 @@ h4 {
   line-height: 0px;
 }
 .fab {
->>>>>>> 4505b17a7c934236d6191f4c5e46629542e40ac5
   margin: 10px;
   text-decoration: none;
 }
