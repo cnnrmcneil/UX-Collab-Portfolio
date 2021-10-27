@@ -19,6 +19,7 @@ header {
   margin-top: 20px;
   width: 8vh;
 }
+
 header p {
   display: inline;
   color: white;
@@ -81,6 +82,20 @@ header li a:hover {
   border-radius: 16px;
 }
 
+#firstCaseStudy .project_name{
+  position:absolute;
+  top: 60vh;
+  color: white;
+
+}
+
+#firstCaseStudy .description{
+  position:absolute;
+  top: 63vh;
+  left: 40vw;
+  color: white;
+}
+
 #secondCaseStudy {
   background-color: blue;
   border-radius: 16px;
@@ -91,6 +106,20 @@ header li a:hover {
   width: 422px;
   height: 294px;
   border-radius: 16px;
+}
+
+#secondCaseStudy .project_name{
+  position:absolute;
+  top: 93vh;
+  color: white;
+
+}
+
+#secondCaseStudy .description{
+  position:absolute;
+  top: 96vh;
+  left: 40vw;
+  color: white;
 }
 
 #thirdCaseStudy {
@@ -105,6 +134,20 @@ header li a:hover {
   border-radius: 16px;
 }
 
+#thirdCaseStudy .project_name{
+  position:absolute;
+  top: 125vh;
+  color: white;
+
+}
+
+#thirdCaseStudy .description{
+  position:absolute;
+  top: 128vh;
+  left: 40vw;
+  color: white;
+}
+
 #fourthCaseStudy {
   background-color: fuchsia;
   border-radius: 16px;
@@ -117,7 +160,25 @@ header li a:hover {
   border-radius: 16px;
 }
 
+<<<<<<< HEAD
 footer {
+=======
+#fourthCaseStudy .project_name{
+  position:absolute;
+  top: 158vh;
+  color: white;
+
+}
+
+#fourthCaseStudy .description{
+  position:absolute;
+  top: 161vh;
+  left: 40vw;
+  color: white;
+}
+
+footer{
+>>>>>>> 13af41c549fb9e0f03ca487f12fb7895614aa40d
   background-color: burlywood;
   display: flex;
   flex-direction: column;
