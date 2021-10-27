@@ -2,10 +2,6 @@ body {
   margin: 0px;
 }
 
-h4{
-  color: white;
-}
-
 header {
   width: 100%;
   display: flex;
@@ -40,19 +36,20 @@ header:nth-child(3) {
   justify-content: flex-end;
   align-items: center;
 }
-ul {
-  background-color: blue;
+.menu {
+  /* background-color: blue; */
   justify-content: center;
   display: flex;
   width: 3%;
   justify-content: flex-end;
 }
-li {
+
+.menu li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-ul li a {
+.menu li a {
   border: 0.1px solid #000000;
   padding: 0.4vh;
   background-color: black;
@@ -242,4 +239,66 @@ h4 {
 .fab {
   margin: 10px;
   text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//CaseStudy1
+#section1_CS1{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  /* background-color: black; */
+}
+
+#section1_CS1 h1{
+  text-align: center;
+}
+
+.featureTextCS1{
+  text-align: center;
+  padding: 5px 40px;
+}
+
+#featureInfoCS1{
+  /* background-color: brown; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#section1_CS1 img{
+  width: 100%;
+}
+
+#section2_CS1{
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 50px 0px;
+  background-color: cadetblue;
+}
+
+#section2_CS1 div{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+#section2_CS1 ul li{
+  list-style-type: disc;
+  text-align: start;
 }
