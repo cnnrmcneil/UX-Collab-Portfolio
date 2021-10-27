@@ -23,8 +23,13 @@ header p {
   color: white;
   text-align: center;
   font-size: 10px;
-  white-space: nowrap;
-  overflow: hidden;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  line-height: 2.5vh;
+  padding: ;
 }
 header:nth-child(3) {
   justify-content: flex-end;
@@ -76,24 +81,21 @@ header li a:hover {
 #fourthCaseStudy {
   background-color: fuchsia;
 }
-<<<<<<< HEAD
-=======
 
-footer{
+footer {
   background-color: burlywood;
   display: flex;
   flex-direction: column;
 }
 
-#logoResume{
+#logoResume {
   display: flex;
   flex-direction: row;
   background-color: cadetblue;
   justify-content: space-between;
 }
 
-#logoResume img{
-  width:26px;
+#logoResume img {
+  width: 26px;
   height: 12.19px;
 }
->>>>>>> 9e8a568df89a7d23423d59ea784f2f3c30711d7d
