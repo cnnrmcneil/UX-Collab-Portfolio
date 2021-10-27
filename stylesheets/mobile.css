@@ -3,9 +3,12 @@ header {
   display: flex;
   flex-direction: column;
   height: 35vh;
-  background-color: rgb(73, 73, 73);
   justify-content: space-around;
   align-items: center;
+  background-image: url("/UX-Collab-Portfolio/images/HeaderBackground.png.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 #logo {
@@ -13,25 +16,31 @@ header {
   justify-content: center;
 }
 .logo {
-  margin-top: 2vh;
+  margin-top: 20px;
   width: 8vh;
-  background-color: brown;
 }
 header p {
-  background-color: black;
   display: inline;
   color: white;
   text-align: center;
-  font-size: 10px;
-  white-space: nowrap;
-  overflow: hidden;
+  font-size: 12px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  line-height: 2.5vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-right: 4vw;
+  margin-left: 4vw;
 }
 header:nth-child(3) {
   justify-content: flex-end;
   align-items: center;
 }
 ul {
-  background-color: blue;
+  background: none;
   justify-content: center;
   display: flex;
   width: 3%;
@@ -43,9 +52,7 @@ li {
   align-items: center;
 }
 ul li a {
-  border: 0.1px solid #000000;
   padding: 0.4vh;
-  background-color: black;
   color: white;
   text-align: center;
 }
@@ -68,7 +75,7 @@ header li a:hover {
   margin-bottom: 10px;
 }
 
-#firstCaseStudy img{
+#firstCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
@@ -80,7 +87,7 @@ header li a:hover {
   margin-bottom: 10px;
 }
 
-#secondCaseStudy img{
+#secondCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
@@ -92,7 +99,7 @@ header li a:hover {
   margin-bottom: 10px;
 }
 
-#thirdCaseStudy img{
+#thirdCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
@@ -104,42 +111,41 @@ header li a:hover {
   margin-bottom: 20px;
 }
 
-#fourthCaseStudy img{
+#fourthCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
 }
 
-
-footer{
+footer {
   background-color: burlywood;
   display: flex;
   flex-direction: column;
 }
 
-#logoResume{
+#logoResume {
   display: flex;
   flex-direction: row;
   background-color: cadetblue;
   justify-content: space-between;
-  padding: 20px 15px 50px 10px ;
+  padding: 20px 15px 50px 10px;
   border-bottom: 1px solid #282828;
 }
 
-#logoResume img{
-  width:26px;
+#logoResume img {
+  width: 26px;
   height: 12.19px;
 }
 
-#resume{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+#resume {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-#contactInfo{
+#contactInfo {
   background-color: coral;
   display: flex;
   justify-content: space-between;
@@ -150,26 +156,26 @@ line-height: 16px;
   line-height: 8px;
 }
 
-#contact{
+#contact {
   background-color: cornflowerblue;
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 5px 0px 20px 30px ;
+  padding: 5px 0px 20px 30px;
 }
 
-#social{
+#social {
   background-color: crimson;
   display: flex;
   flex-direction: row;
-  align-items:flex-end;
+  align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
-  padding: 5px 0px 20px 30px ;
+  padding: 5px 0px 20px 30px;
   border-left: 1px solid #282828;
 }
 
-.fab{
+.fab {
   margin: 10px;
   text-decoration: none;
 }
