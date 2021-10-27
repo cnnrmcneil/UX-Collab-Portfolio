@@ -1,5 +1,6 @@
 body{
   background-color: black;
+  margin: 0px;
 }
 
 header {
@@ -72,12 +73,14 @@ header li a:hover {
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  animation-duration: 3s;
 }
 
 #firstCaseStudy img{
   width: 422px;
   height: 294px;
   border-radius: 16px;
+  animation-duration: 3s;
 }
 
 #firstCaseStudy .project_name{
@@ -225,24 +228,11 @@ line-height: 16px;
   align-items:flex-end;
   justify-content: flex-start;
   width: 50%;
-<<<<<<< HEAD
-  flex-wrap: wrap;
-  padding: 5px 0px 5px 30px;
-  border-left: 1px solid #282828;
-}
-h4 {
-  padding-right: 29vw;
-  height: 0px;
-  line-height: 0px;
-}
-.fab {
-=======
   padding: 5px 0px 20px 30px ;
   border-left: 1px solid #282828;
 }
 
 .fab{
->>>>>>> 619d0bfb2abf287abe8c9a0b5c3176fd8bb89bb8
   margin: 10px;
   text-decoration: none;
 }
