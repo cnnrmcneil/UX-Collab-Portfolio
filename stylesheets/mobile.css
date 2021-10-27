@@ -23,13 +23,8 @@ header p {
   color: white;
   text-align: center;
   font-size: 10px;
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
-  line-height: 2.5vh;
-  padding: ;
+  white-space: nowrap;
+  overflow: hidden;
 }
 header:nth-child(3) {
   justify-content: flex-end;
@@ -114,18 +109,15 @@ header li a:hover {
   height: 294px;
   border-radius: 16px;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 70c6209c219a467f4c885364d0e75cfe7958a6c5
 
-footer {
+footer{
   background-color: burlywood;
   display: flex;
   flex-direction: column;
 }
 
-#logoResume {
+#logoResume{
   display: flex;
   flex-direction: row;
   background-color: cadetblue;
@@ -134,12 +126,10 @@ footer {
   border-bottom: 1px solid #282828;
 }
 
-#logoResume img {
-  width: 26px;
+#logoResume img{
+  width:26px;
   height: 12.19px;
 }
-<<<<<<< HEAD
-=======
 
 #resume{
 font-family: Roboto;
@@ -183,4 +173,3 @@ line-height: 16px;
   margin: 10px;
   text-decoration: none;
 }
->>>>>>> 70c6209c219a467f4c885364d0e75cfe7958a6c5
