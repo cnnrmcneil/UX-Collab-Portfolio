@@ -236,14 +236,8 @@ footer {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-
-
 /* Case Studies */
 #section1_CS {
-=======
-#section1_CS1 {
->>>>>>> 62f44afe998e3e9bf9f0d5f1fedce4ed07522bf7
   display: flex;
   flex-flow: column wrap;
   text-align: center;
@@ -255,11 +249,7 @@ footer {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .cs_body_text {
-=======
-.featureTextCS1 {
->>>>>>> 62f44afe998e3e9bf9f0d5f1fedce4ed07522bf7
   text-align: center;
   padding: 5px 40px;
 }
@@ -302,15 +292,11 @@ footer {
   text-align: center;
   margin-top: 50px;
 }
-#section3_CS ul li{
+#section3_CS ul li {
   list-style-type: disc;
 }
 
-<<<<<<< HEAD
 #cs_main img {
-=======
-main img {
->>>>>>> 62f44afe998e3e9bf9f0d5f1fedce4ed07522bf7
   width: 100%;
 }
 
@@ -331,7 +317,7 @@ main img {
   justify-content: space-evenly;
 }
 
-#section5_CS ul li{
+#section5_CS ul li {
   list-style-type: disc;
 }
 
