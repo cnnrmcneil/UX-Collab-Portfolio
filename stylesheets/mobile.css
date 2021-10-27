@@ -1,9 +1,6 @@
 body {
+  background-color: black;
   margin: 0px;
-}
-
-h4{
-  color: white;
 }
 
 header {
@@ -24,7 +21,6 @@ header {
 .logo {
   margin-top: 2vh;
   width: 8vh;
-  background-color: brown;
 }
 
 header p {
@@ -64,7 +60,6 @@ header li a:hover {
 }
 
 .bioCase {
-  background-color: black;
   display: flex;
   flex-direction: column;
   /* background-color: green; */
@@ -86,11 +81,14 @@ header li a:hover {
   align-items: flex-end;
 }
 #firstCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
   color: white;
 }
 
 #firstCaseStudy .description {
   color: white;
+  font-size: 10px;
 }
 
 #secondCaseStudy {
@@ -108,10 +106,13 @@ header li a:hover {
 }
 
 #secondCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
   color: white;
 }
 
 #secondCaseStudy .description {
+  font-size: 10px;
   color: white;
 }
 
@@ -130,10 +131,13 @@ header li a:hover {
 }
 
 #thirdCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
   color: white;
 }
 
 #thirdCaseStudy .description {
+  font-size: 10px;
   color: white;
 }
 
@@ -160,10 +164,13 @@ footer {
 
 #resume {
   font-family: Roboto;
+  text-decoration: none;
   font-style: normal;
   font-weight: normal;
+  color: black;
+  background-color: gray;
   font-size: 14px;
-  line-height: 16px;
+  height: 2vh;
 }
 
 #contactInfo {
@@ -174,7 +181,6 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 8px;
 }
 
 #contact {
@@ -182,7 +188,8 @@ footer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 5px 0px 20px 30px;
+  font-size: 7px;
+  padding: 5px 0px 0px 30px;
 }
 
 #social {
@@ -192,6 +199,7 @@ footer {
   align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
+  font-size: 7px;
   flex-wrap: wrap;
   padding: 5px 0px 5px 30px;
   border-left: 1px solid #282828;
@@ -199,7 +207,6 @@ footer {
 h4 {
   padding-right: 29vw;
   height: 0px;
-  line-height: 0px;
 }
 .fab {
   margin: 10px;
