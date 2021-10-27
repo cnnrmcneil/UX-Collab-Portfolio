@@ -234,19 +234,24 @@ footer {
 
 
 //Section1
+#cs1_main section p{
+  padding: 70px 10px;
+}
+
 #section1_CS1 {
   display: flex;
   flex-flow: column wrap;
   text-align: center;
   justify-content: space-evenly;
   /* background-color: black; */
+  margin-bottom: 66px;
 }
 
 #section1_CS1 h1 {
   text-align: center;
 }
 
-.featureTextCS1 {
+.cs1_body_text {
   text-align: center;
   padding: 5px 40px;
 }
