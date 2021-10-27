@@ -1,4 +1,4 @@
-body {
+#index_body {
   background-color: black;
   margin: 0px;
 }
@@ -213,10 +213,13 @@ h4 {
   text-decoration: none;
 }
 
+
+//Section1
 #section1_CS1 {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-around;
+  text-align: center;
+  justify-content: space-evenly;
   /* background-color: black; */
 }
 
@@ -236,9 +239,6 @@ h4 {
   justify-content: space-evenly;
 }
 
-#section1_CS1 img {
-  width: 100%;
-}
 
 #section2_CS1 {
   display: flex;
@@ -246,6 +246,9 @@ h4 {
   justify-content: space-between;
   padding: 50px 0px;
   background-color: cadetblue;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
 }
 
 #section2_CS1 div {
@@ -258,4 +261,62 @@ h4 {
 #section2_CS1 ul li {
   list-style-type: disc;
   text-align: start;
+}
+
+
+#section3_CS1{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+}
+
+main img{
+  width: 100%;
+}
+
+#section4_CS1{
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#section5_CS1{
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#section6_CS1{
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;  
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#section7_CS1{
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;  
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#takeawaysCS1 ul li{
+  list-style-type: disc;
+  text-align: start;
+}
+
+#arrowsCS1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
