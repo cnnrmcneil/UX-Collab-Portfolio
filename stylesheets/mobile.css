@@ -1,6 +1,9 @@
 body {
-  background-color: black;
   margin: 0px;
+}
+
+h4{
+  color: white;
 }
 
 header {
@@ -61,6 +64,7 @@ header li a:hover {
 }
 
 .bioCase {
+  background-color: black;
   display: flex;
   flex-direction: column;
   /* background-color: green; */
