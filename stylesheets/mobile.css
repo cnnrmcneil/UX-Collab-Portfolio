@@ -81,7 +81,7 @@ body {
 }
 
 #secondCaseStudy {
-  background-image: url("/images/yoga.jpg");
+  background-image: url("/images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -106,7 +106,7 @@ body {
 }
 
 #thirdCaseStudy {
-  background-image: url("/images/yoga.jpg");
+  background-image: url("/images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -126,6 +126,30 @@ body {
 }
 
 #thirdCaseStudy .description {
+  font-size: 10px;
+  color: white;
+}
+#fourthCaseStudy {
+  background-image: url("/images/4th\ box.png");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#fourthCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+}
+
+#fourthCaseStudy .description {
   font-size: 10px;
   color: white;
 }
