@@ -1,8 +1,9 @@
 body {
+  background-color: black;
   margin: 0px;
 }
 
-header {
+.homeHeader {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -20,10 +21,9 @@ header {
 .logo {
   margin-top: 2vh;
   width: 8vh;
-  background-color: brown;
 }
 
-header p {
+.headerP {
   background-color: black;
   display: inline;
   color: white;
@@ -32,36 +32,34 @@ header p {
   white-space: nowrap;
   overflow: hidden;
 }
-header:nth-child(3) {
+.homeHeader:nth-child(3) {
   justify-content: flex-end;
   align-items: center;
 }
-.menu {
-  /* background-color: blue; */
+.homeHeader ul {
+  background-color: blue;
   justify-content: center;
   display: flex;
   width: 3%;
   justify-content: flex-end;
 }
-
-.menu li {
+.homeHeader ul li {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.menu li a {
+.homeHeader ul li a {
   border: 0.1px solid #000000;
   padding: 0.4vh;
   background-color: black;
   color: white;
   text-align: center;
 }
-header li a:hover {
+.homeHeader li a:hover {
   background-color: #f4f4f4;
 }
 
 .bioCase {
-  background-color: black;
   display: flex;
   flex-direction: column;
   /* background-color: green; */
@@ -70,105 +68,76 @@ header li a:hover {
 }
 
 #firstCaseStudy {
-  /* background-color: yellow; */
+  background-image: url("/images/yoga.jpg");
+  background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
   animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
-
-#firstCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
-  animation-duration: 3s;
-}
-
 #firstCaseStudy .project_name {
-  position: absolute;
-  top: 60vh;
+  font-size: 16px;
+  width: 40vw;
   color: white;
 }
 
 #firstCaseStudy .description {
-  position: absolute;
-  top: 63vh;
-  left: 40vw;
   color: white;
+  font-size: 10px;
 }
 
 #secondCaseStudy {
-  /* background-color: blue; */
+  background-image: url("/images/yoga.jpg");
+  background-size: cover;
   border-radius: 16px;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-#secondCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #secondCaseStudy .project_name {
-  position: absolute;
-  top: 93vh;
+  font-size: 16px;
+  width: 40vw;
   color: white;
 }
 
 #secondCaseStudy .description {
-  position: absolute;
-  top: 96vh;
-  left: 40vw;
+  font-size: 10px;
   color: white;
 }
 
 #thirdCaseStudy {
-  /* background-color: red; */
+  background-image: url("/images/yoga.jpg");
+  background-size: cover;
   border-radius: 16px;
+  margin-top: 10px;
   margin-bottom: 10px;
-}
-
-#thirdCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 #thirdCaseStudy .project_name {
-  position: absolute;
-  top: 125vh;
+  font-size: 16px;
+  width: 40vw;
   color: white;
 }
 
 #thirdCaseStudy .description {
-  position: absolute;
-  top: 128vh;
-  left: 40vw;
-  color: white;
-}
-
-#fourthCaseStudy {
-  /* background-color: fuchsia; */
-  border-radius: 16px;
-  margin-bottom: 20px;
-}
-
-#fourthCaseStudy img {
-  width: 422px;
-  height: 294px;
-  border-radius: 16px;
-}
-
-#fourthCaseStudy .project_name {
-  position: absolute;
-  top: 158vh;
-  color: white;
-}
-
-#fourthCaseStudy .description {
-  position: absolute;
-  top: 161vh;
-  left: 40vw;
+  font-size: 10px;
   color: white;
 }
 
@@ -195,10 +164,13 @@ footer {
 
 #resume {
   font-family: Roboto;
+  text-decoration: none;
   font-style: normal;
   font-weight: normal;
+  color: black;
+  background-color: gray;
   font-size: 14px;
-  line-height: 16px;
+  height: 2vh;
 }
 
 #contactInfo {
@@ -209,7 +181,6 @@ footer {
   font-style: normal;
   font-weight: normal;
   font-size: 12px;
-  line-height: 8px;
 }
 
 #contact {
@@ -217,7 +188,8 @@ footer {
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 5px 0px 20px 30px;
+  font-size: 7px;
+  padding: 5px 0px 0px 30px;
 }
 
 #social {
@@ -227,6 +199,7 @@ footer {
   align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
+  font-size: 7px;
   flex-wrap: wrap;
   padding: 5px 0px 5px 30px;
   border-left: 1px solid #282828;
@@ -234,56 +207,40 @@ footer {
 h4 {
   padding-right: 29vw;
   height: 0px;
-  line-height: 0px;
 }
 .fab {
   margin: 10px;
   text-decoration: none;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//CaseStudy1
-#section1_CS1{
+#section1_CS1 {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-around;
   /* background-color: black; */
 }
 
-#section1_CS1 h1{
+#section1_CS1 h1 {
   text-align: center;
 }
 
-.featureTextCS1{
+.featureTextCS1 {
   text-align: center;
   padding: 5px 40px;
 }
 
-#featureInfoCS1{
+#featureInfoCS1 {
   /* background-color: brown; */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
-#section1_CS1 img{
+#section1_CS1 img {
   width: 100%;
 }
 
-#section2_CS1{
+#section2_CS1 {
   display: flex;
   flex-flow: column wrap;
   justify-content: space-between;
@@ -291,15 +248,14 @@ h4 {
   background-color: cadetblue;
 }
 
-#section2_CS1 div{
+#section2_CS1 div {
   display: flex;
   flex-flow: column wrap;
   align-items: center;
   text-align: center;
 }
 
-#section2_CS1 ul li{
+#section2_CS1 ul li {
   list-style-type: disc;
   text-align: start;
 }
-
