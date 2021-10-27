@@ -1,4 +1,4 @@
-body{
+body {
   background-color: black;
   margin: 0px;
 }
@@ -76,21 +76,21 @@ header li a:hover {
   animation-duration: 3s;
 }
 
-#firstCaseStudy img{
+#firstCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
   animation-duration: 3s;
 }
 
-#firstCaseStudy .project_name{
-  position:absolute;
+#firstCaseStudy .project_name {
+  position: absolute;
   top: 60vh;
   color: white;
 }
 
-#firstCaseStudy .description{
-  position:absolute;
+#firstCaseStudy .description {
+  position: absolute;
   top: 63vh;
   left: 40vw;
   color: white;
@@ -102,20 +102,20 @@ header li a:hover {
   margin-bottom: 10px;
 }
 
-#secondCaseStudy img{
+#secondCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
 }
 
-#secondCaseStudy .project_name{
-  position:absolute;
+#secondCaseStudy .project_name {
+  position: absolute;
   top: 93vh;
   color: white;
 }
 
-#secondCaseStudy .description{
-  position:absolute;
+#secondCaseStudy .description {
+  position: absolute;
   top: 96vh;
   left: 40vw;
   color: white;
@@ -127,21 +127,20 @@ header li a:hover {
   margin-bottom: 10px;
 }
 
-#thirdCaseStudy img{
+#thirdCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
 }
 
-#thirdCaseStudy .project_name{
-  position:absolute;
+#thirdCaseStudy .project_name {
+  position: absolute;
   top: 125vh;
   color: white;
-
 }
 
-#thirdCaseStudy .description{
-  position:absolute;
+#thirdCaseStudy .description {
+  position: absolute;
   top: 128vh;
   left: 40vw;
   color: white;
@@ -153,57 +152,56 @@ header li a:hover {
   margin-bottom: 20px;
 }
 
-#fourthCaseStudy img{
+#fourthCaseStudy img {
   width: 422px;
   height: 294px;
   border-radius: 16px;
 }
 
-#fourthCaseStudy .project_name{
-  position:absolute;
+#fourthCaseStudy .project_name {
+  position: absolute;
   top: 158vh;
   color: white;
-
 }
 
-#fourthCaseStudy .description{
-  position:absolute;
+#fourthCaseStudy .description {
+  position: absolute;
   top: 161vh;
   left: 40vw;
   color: white;
 }
 
-footer{
+footer {
   /* background-color: burlywood; */
   display: flex;
   flex-direction: column;
 }
 
-#logoResume{
+#logoResume {
   display: flex;
   flex-direction: row;
   background-color: white;
   justify-content: space-between;
-  padding: 20px 15px 50px 10px ;
+  padding: 20px 15px 50px 10px;
   border-bottom: 1px solid #282828;
 }
 
-#logoResume img{
+#logoResume img {
   width: 39.68px;
   height: 25px;
-  background-color:#9D9D9D ;
+  background-color: #9d9d9d;
 }
 
-#resume{
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 14px;
-line-height: 16px;
+#resume {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
 }
 
-#contactInfo{
-  background-color:white;
+#contactInfo {
+  background-color: white;
   display: flex;
   justify-content: space-between;
   font-family: Roboto;
@@ -213,26 +211,39 @@ line-height: 16px;
   line-height: 8px;
 }
 
-#contact{
+#contact {
   /* background-color: cornflowerblue; */
   display: flex;
   flex-direction: column;
   width: 50%;
-  padding: 5px 0px 20px 30px ;
+  padding: 5px 0px 20px 30px;
 }
 
-#social{
+#social {
   /* background-color: crimson; */
   display: flex;
   flex-direction: row;
-  align-items:flex-end;
+  align-items: flex-end;
   justify-content: flex-start;
   width: 50%;
+<<<<<<< HEAD
   padding: 5px 0px 20px 30px ;
   border-left: 1px solid #282828;
 }
 
 .fab{
+=======
+  flex-wrap: wrap;
+  padding: 5px 0px 5px 30px;
+  border-left: 1px solid #282828;
+}
+h4 {
+  padding-right: 29vw;
+  height: 0px;
+  line-height: 0px;
+}
+.fab {
+>>>>>>> 4505b17a7c934236d6191f4c5e46629542e40ac5
   margin: 10px;
   text-decoration: none;
 }
