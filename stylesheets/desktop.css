@@ -279,7 +279,10 @@ footer {
   flex-flow: column wrap;
   text-align: center;
   justify-content: space-evenly;
-  /* background-color: black; */
+}
+#section1_CS img {
+  width: 50% !important;
+  align-items: center;
 }
 
 #section1_CS h1 {
