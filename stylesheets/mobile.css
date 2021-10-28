@@ -282,8 +282,9 @@ footer {
 
 .cs_body_text {
   text-align: center;
-  margin: 0px 64px;
-  font-size: 12px;
+  margin: 0px 72px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 #featureInfoCS {
