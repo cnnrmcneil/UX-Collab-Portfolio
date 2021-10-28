@@ -444,8 +444,8 @@ footer {
 .nav-lines{
     font-size:30px;
     cursor:pointer;
-    position: fixed;
-    left: 460px;
+    /* position: fixed; */
+    left: 560px;
     top: 10px;
     color: red;
 }
