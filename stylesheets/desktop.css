@@ -5,17 +5,17 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 100%;
+  height: 100vh;
   justify-content: space-around;
   align-items: center;
-  background-position: top;
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-color: rgba(24, 24, 24, 1);
 }
 
 #logo {
-  position: relative;
+  position: absolute;
   top: 40px;
   left: 20px;
   width: 100%;
@@ -24,6 +24,7 @@ body {
   font-size: 60px;
   color: white;
   font-weight: 700;
+  padding-top: 223px;
 }
 .headerP {
   display: inline;
@@ -34,7 +35,6 @@ body {
   white-space: wrap;
   width: 50%;
   justify-content: flex-start;
-  height: 60vh;
 }
 
 .homeHeader a {
