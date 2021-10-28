@@ -292,7 +292,6 @@ footer {
 }
 
 #featureInfoCS {
-  /* background-color: brown; */
   display: flex;
   flex-flow: row wrap;
   justify-content: space-evenly;
@@ -385,15 +384,15 @@ footer {
   padding-bottom: 50px;
 }
 
-.bulletPoints li {
+/* .bulletPoints li {
   text-align: center;
   list-style-position: inside;
   font-weight: 300;
-}
+  margin: 0px 72px 18px 72px;
+  font-size: 14px;
 
-/* .bulletPoints li::marker {
-  font-weight:bolder;
 } */
+
 
 .video {
   width: 100%;
