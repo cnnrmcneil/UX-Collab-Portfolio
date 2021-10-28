@@ -272,3 +272,133 @@ footer {
   margin: 10px;
   text-decoration: none;
 }
+
+/* Case Studies */
+#section1_CS {
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  /* background-color: black; */
+}
+
+#section1_CS h1 {
+  text-align: center;
+}
+
+.cs_body_text {
+  text-align: center;
+  margin: 0px 64px;
+  font-size: 12px;
+}
+#cs1_body {
+  font-family: "Lato", sans-serif !important;
+}
+#featureInfoCS {
+  /* background-color: brown; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+
+#section2_CS {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  padding: 50px 0px;
+  background-color: cadetblue;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#section2_CS div {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
+#section2_CS ul li {
+  list-style-type: disc;
+  text-align: start;
+}
+
+#section3_CS {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 50px;
+}
+#section3_CS ul li {
+  list-style-type: disc;
+}
+#cs_main {
+  box-sizing: border-box;
+  width: 100%;
+  margin-left: 16px;
+}
+#cs_main img {
+  width: 100%;
+}
+
+#section4_CS {
+  margin-top: 50px;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+#section5_CS {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#section5_CS ul li {
+  list-style-type: disc;
+}
+
+#section6_CS {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#section7_CS {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 50px;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+#takeawaysCS ul li {
+  list-style-type: disc;
+  text-align: start;
+}
+
+#arrows {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+#video-section {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+}
