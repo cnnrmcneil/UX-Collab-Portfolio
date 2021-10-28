@@ -1,3 +1,5 @@
+
+
 #index_body {
   background-color: black;
   margin: 0px;
@@ -265,6 +267,9 @@ footer {
   text-decoration: none;
 }
 
+
+
+
 /* Case Studies */
 #section1_CS {
   display: flex;
@@ -280,7 +285,8 @@ footer {
 
 .cs_body_text {
   text-align: center;
-  padding: 5px 40px;
+  margin: 0px 64px;
+  font-size: 12px;
 }
 
 #featureInfoCS {
