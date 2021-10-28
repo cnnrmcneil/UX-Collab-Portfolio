@@ -1,4 +1,7 @@
-
+h2, h3{
+  font-weight: 900;
+  font-size: 20px;
+}
 
 #index_body {
   background-color: black;
@@ -62,7 +65,7 @@
 }
 
 #firstCaseStudy {
-  background-image: url("../images/yoga.jpg");
+  background-image: url("../images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 20px;
@@ -93,7 +96,7 @@
 }
 
 #secondCaseStudy {
-  background-image: url("../images/3rd\ box.png");
+  background-image: url("../images/yoga.jpg");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
