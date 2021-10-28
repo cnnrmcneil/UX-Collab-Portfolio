@@ -210,7 +210,7 @@ footer {
 }
 
 #resume {
-  font-family: Roboto;
+  font-family: "Lato", sans-serif;
   text-decoration: none;
   text-decoration: underline;
   font-style: normal;
@@ -224,7 +224,7 @@ footer {
 #contactInfo {
   display: flex;
   justify-content: space-between;
-  font-family: Roboto;
+  font-family: "Lato", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -279,10 +279,12 @@ footer {
   flex-flow: column wrap;
   text-align: center;
   justify-content: space-evenly;
+  margin-top: 80px;
+  font-size: 24px;
 }
 #section1_CS img {
-  width: 50% !important;
-  align-items: center;
+  width: 70% !important;
+  align-self: center;
 }
 
 #section1_CS h1 {
@@ -291,8 +293,8 @@ footer {
 
 .cs_body_text {
   text-align: center;
-  margin: 0px 64px;
-  font-size: 12px;
+  margin: 16px 64px;
+  font-size: 24px;
 }
 #cs1_body {
   font-family: "Lato", sans-serif !important;
@@ -326,7 +328,11 @@ footer {
   list-style-type: disc;
   text-align: start;
 }
-
+#quotes {
+  background-color: cadetblue;
+  padding: 32px 0px 32px 0px;
+  margin-bottom: 32px;
+}
 #section3_CS {
   display: flex;
   flex-flow: column wrap;
@@ -335,13 +341,56 @@ footer {
   text-align: center;
   margin-top: 50px;
 }
+#comparison {
+  width: 80% !important;
+}
 #section3_CS ul li {
   list-style-type: disc;
+}
+
+#reliable {
+  width: 50% !important;
+}
+#motorbike {
+  width: 50% !important;
+}
+#survey {
+  width: 50% !important;
+}
+#postits {
+  width: 70% !important;
+}
+#flowchart {
+  width: 70% !important;
+}
+#persona {
+  width: 70% !important;
+}
+#painpoints {
+  width: 70% !important;
+}
+#impact {
+  width: 80% !important;
+  align-self: center;
+}
+#prototype {
+  width: 60% !important;
+}
+#concept {
+  width: 45% !important;
+}
+#hifi {
+  width: 70% !important;
+}
+#finalbox {
+  margin-left: 60px;
+  padding-bottom: 200px;
 }
 #cs_main {
   box-sizing: border-box;
   width: 100%;
   margin-left: 16px;
+  font-size: 24px;
 }
 #cs_main img {
   width: 100%;
