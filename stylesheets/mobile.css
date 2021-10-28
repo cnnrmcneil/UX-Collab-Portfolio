@@ -19,18 +19,15 @@
   background-size: cover;
 }
 
-/* #logo {
-  text-align: center;
-  position: fixed;
-  text-align: center;
-  padding-top: 8px;
-  height: auto;
-} */
+#logo{
+  padding-left: 5px;
+}
 
 .homeHeader h1 {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   color: white;
   font-weight: bold;
+  margin-top: 0px;
 }
 .headerP {
   display: inline;
@@ -468,8 +465,4 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
-}
-
-#logo{
-  padding-left: 5px;
 }
