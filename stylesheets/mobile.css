@@ -399,6 +399,7 @@ footer {
   height: 100%;
 }
 
+
 /* Nav Bar */
 .overlay {
   height: 0%;
@@ -476,4 +477,40 @@ footer {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+
+
+/* Arrows */
+.icon {
+  transform: translate(-50%,-50%);
+  width: 80px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.arrow {
+  width: 90%;
+  height: 10px;
+  background-color: black;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  animation: arrow 700ms linear infinite;
+}
+
+.arrow::after, .arrow::before {
+  content: '';
+  width: 60%;
+  height: 10px;
+  right: -8px;
+  background-color: black;
+}
+
+.arrow::after {
+  top: -12px;
+  transform: rotate(45deg);
+}
+
+.arrow::before {
+  top: 12px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
+  transform: rotate(-45deg);
 }

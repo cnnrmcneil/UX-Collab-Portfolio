@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheets/arrows.css">
+</head>
+
+<body>
+    <h1>arrows</h1>
+    <div class="icon">
+        <div class="arrow"></div>
+    </div>
+</body>
+
+<script>
+    const $icon = document.querySelector('.icon');
+    const $arrow = document.querySelector('.arrow');
+
+    $icon.onclick = () => {
+        $arrow.animate([
+            { left: '0' },
+            { left: '10px' },
+            { left: '0' }
+        ], {
+            duration: 700,
+            iterations: Infinity
+        });
+    }
+</script>
+
+
+</html>
