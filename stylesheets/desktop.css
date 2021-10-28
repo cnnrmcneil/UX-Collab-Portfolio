@@ -15,14 +15,10 @@ body {
 }
 
 #logo {
-  display: flex;
-  align-self: flex-start;
-  margin-left: 8vw;
-  margin-top: 10vh;
+  position: relative;
+  top: 40px;
+  left: 20px;
   width: 100%;
-}
-.homeHeader > *:nth-child(2) {
-  flex-grow: 0.3;
 }
 .homeHeader h1 {
   font-size: 60px;
@@ -40,20 +36,10 @@ body {
   justify-content: flex-start;
   height: 60vh;
 }
-.homeHeader ul {
-  background-color: blue;
-  flex-grow: 0.9;
-}
-.homeHeader ul li {
-  text-align: start;
-}
-.homeHeader ul li a {
+
+.homeHeader a {
   height: 2vh;
   color: white;
-  text-align: start;
-}
-.homeHeader li a:hover {
-  background-color: #424242;
 }
 
 .bioCaseContainer {
@@ -72,6 +58,9 @@ body {
   height: 75vh;
   max-width: 877px;
 }
+.bioCase > a {
+  text-decoration: none;
+}
 
 #firstCaseStudy {
   background-image: url("../images/yoga.jpg");
@@ -87,6 +76,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+#firstCaseStudy:hover {
+  transform: scale(1.04);
 }
 #firstCaseStudy .project_name {
   font-size: 16px;
@@ -113,6 +106,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+#secondCaseStudy:hover {
+  transform: scale(1.04);
 }
 
 #secondCaseStudy .project_name {
@@ -140,6 +137,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+#thirdCaseStudy:hover {
+  transform: scale(1.04);
 }
 
 #thirdCaseStudy .project_name {
@@ -166,6 +167,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+#fourthCaseStudy:hover {
+  transform: scale(1.04);
 }
 
 #fourthCaseStudy .project_name {
