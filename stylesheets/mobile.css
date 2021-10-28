@@ -18,18 +18,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.logoFix {
-  text-align: center;
-}
+
 #logo {
   text-align: center;
-}
-.logo {
-  position: absolute;
+  position: fixed;
   text-align: center;
   padding-top: 8px;
   height: auto;
 }
+
 .homeHeader h1 {
   padding-top: 60px;
   color: white;
@@ -452,9 +449,7 @@ footer {
 .nav-lines{
     font-size:30px;
     cursor:pointer;
-    /* position: fixed; */
-    left: 560px;
-    top: 10px;
+    position: fixed;
     color: red;
 }
 
@@ -464,3 +459,14 @@ footer {
     top: -100px;
     color: red;
 } */
+
+.nav_bar{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: space-between;
+  width: 90%;
+  height: 100%;
+}
+
+
