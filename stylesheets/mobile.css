@@ -68,7 +68,13 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
 }
+#firstCaseStudy:hover {
+  transform: scale(1.04);
+}
+
+
 #firstCaseStudy .project_name {
   font-size: 16px;
   width: 40vw;
@@ -93,7 +99,10 @@
   height: 24vh;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+#secondCaseStudy:hover {
+  transform: scale(1.04);
 }
 
 #secondCaseStudy .project_name {
@@ -110,7 +119,8 @@
 }
 
 #thirdCaseStudy {
-  background-image: url("../images/2nd\ box.png");
+  background-image: url("../images/4th\ box.png");
+  
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -121,7 +131,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
 }
+#thirdCaseStudy:hover {
+  transform: scale(1.04);
+}
+
 
 #thirdCaseStudy .project_name {
   font-size: 16px;
@@ -136,7 +151,7 @@
   margin-right: 4px;
 }
 #fourthCaseStudy {
-  background-image: url("../images/4th\ box.png");
+  background-image: url("../images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -147,6 +162,9 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+}
+#fourthCaseStudy:hover {
+  transform: scale(1.04);
 }
 
 #fourthCaseStudy .project_name {
