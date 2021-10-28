@@ -279,21 +279,28 @@ footer {
   flex-flow: column wrap;
   text-align: center;
   justify-content: space-evenly;
-  margin-top: 80px;
+  margin-top: 48px;
+  margin-bottom: 48px;
   font-size: 24px;
 }
 #section1_CS img {
   width: 70% !important;
   align-self: center;
 }
+#liststudy2 li {
+  list-style: none;
+}
 
 #section1_CS h1 {
   text-align: center;
 }
-
+.picture_caption {
+  margin-bottom: 32px;
+  margin-top: 0px;
+}
 .cs_body_text {
   text-align: center;
-  margin: 16px 64px;
+  margin: 0px 242px 20px 242px;
   font-size: 24px;
 }
 #cs1_body {
@@ -325,7 +332,7 @@ footer {
 }
 
 #section2_CS ul li {
-  list-style-type: disc;
+  list-style: none;
   text-align: start;
 }
 #quotes {
@@ -345,9 +352,12 @@ footer {
   width: 80% !important;
 }
 #section3_CS ul li {
-  list-style-type: disc;
+  list-style: none;
 }
-
+h3 {
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
 #reliable {
   width: 50% !important;
 }
@@ -414,9 +424,12 @@ footer {
 }
 
 #section5_CS ul li {
-  list-style-type: disc;
+  list-style: none;
 }
-
+.bulletRemover {
+  text-align: center;
+  list-style-position: inside;
+}
 #section6_CS {
   display: flex;
   flex-flow: column wrap;
@@ -434,7 +447,7 @@ footer {
 }
 
 #takeawaysCS ul li {
-  list-style-type: disc;
+  list-style: none;
   text-align: start;
 }
 
