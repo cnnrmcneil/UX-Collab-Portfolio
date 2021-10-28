@@ -16,12 +16,11 @@
 }
 
 #logo {
-  display: flex;
-  justify-content: center;
+  padding-top: 8px;
 }
 .logo {
-  margin-top: 2vh;
-  width: 8vh;
+  width: 20vw;
+  height: auto;
 }
 .homeHeader h1 {
   color: white;
@@ -37,19 +36,12 @@
   justify-content: flex-start;
   height: 10vh;
 }
-.homeHeader ul {
-  background-color: blue;
-}
-.homeHeader ul li {
-  text-align: start;
-}
-.homeHeader ul li a {
+
+.homeHeader a {
   height: 2vh;
   color: white;
   text-align: start;
-}
-.homeHeader li a:hover {
-  background-color: #424242;
+  text-decoration: underline;
 }
 
 .bioCase {
@@ -58,6 +50,9 @@
   background-color: rgba(24, 24, 24, 1);
   align-items: center;
   justify-content: space-between;
+}
+.bioCase > a {
+  text-decoration: none;
 }
 
 #firstCaseStudy {
@@ -70,46 +65,27 @@
   width: 90vw;
   height: 24vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
+  transition: all 0.2s ease-in-out;
+}
+#firstCaseStudy:hover {
+  transform: scale(1.04);
 }
 #firstCaseStudy .project_name {
   font-size: 16px;
   width: 40vw;
   color: white;
+  margin-left: 4px;
 }
 
 #firstCaseStudy .description {
   color: white;
   font-size: 10px;
+  margin-right: 4px;
 }
 
 #secondCaseStudy {
-  background-image: url("../images/2nd\ box.png");
-  background-size: cover;
-  border-radius: 16px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  animation-duration: 3s;
-  width: 90vw;
-  height: 24vh;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-#secondCaseStudy .project_name {
-  font-size: 16px;
-  width: 40vw;
-  color: white;
-}
-
-#secondCaseStudy .description {
-  font-size: 10px;
-  color: white;
-}
-
-#thirdCaseStudy {
   background-image: url("../images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
@@ -119,7 +95,34 @@
   width: 90vw;
   height: 24vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#secondCaseStudy .project_name {
+  font-size: 16px;
+  width: 40vw;
+  color: white;
+  margin-left: 4px;
+}
+
+#secondCaseStudy .description {
+  font-size: 10px;
+  color: white;
+  margin-right: 4px;
+}
+
+#thirdCaseStudy {
+  background-image: url("../images/2nd\ box.png");
+  background-size: cover;
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  animation-duration: 3s;
+  width: 90vw;
+  height: 24vh;
+  display: flex;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -127,11 +130,13 @@
   font-size: 16px;
   width: 40vw;
   color: white;
+  margin-left: 4px;
 }
 
 #thirdCaseStudy .description {
   font-size: 10px;
   color: white;
+  margin-right: 4px;
 }
 #fourthCaseStudy {
   background-image: url("../images/4th\ box.png");
@@ -143,7 +148,7 @@
   width: 90vw;
   height: 24vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
 }
 
@@ -151,10 +156,12 @@
   font-size: 16px;
   width: 40vw;
   color: white;
+  margin-left: 4px;
 }
 
 #fourthCaseStudy .description {
   font-size: 10px;
+  margin-right: 4px;
   color: white;
 }
 
