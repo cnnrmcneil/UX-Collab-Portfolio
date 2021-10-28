@@ -7,22 +7,29 @@
   width: 100%;
   display: flex;
   flex-direction: column;
-  height: 35vh;
-  background-color: rgba(24, 24, 24, 1);
+  height: 50vh;
+  background-color: rgba(32, 32, 32, 1);
   justify-content: space-around;
   align-items: center;
-  background-position: center;
+  background: url(../images/HeaderBackground.png);
+  background-position: top center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
-
+.logoFix {
+  text-align: center;
+}
 #logo {
-  padding-top: 8px;
+  text-align: center;
 }
 .logo {
-  width: 20vw;
+  position: absolute;
+  text-align: center;
+  padding-top: 8px;
   height: auto;
 }
 .homeHeader h1 {
+  padding-top: 60px;
   color: white;
   font-weight: bold;
 }
@@ -35,6 +42,8 @@
   width: 75%;
   justify-content: flex-start;
   height: 10vh;
+
+  padding-top: 80px;
 }
 
 .homeHeader a {
@@ -42,13 +51,13 @@
   color: white;
   text-align: start;
   text-decoration: underline;
-  padding-bottom: 17px;
+  padding-bottom: 20px;
 }
 
 .bioCase {
   display: flex;
   flex-direction: column;
-  background-color: rgba(24, 24, 24, 1);
+  background-color: rgba(32, 32, 32, 1);
   align-items: center;
   justify-content: space-between;
 }
