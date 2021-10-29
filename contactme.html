@@ -25,6 +25,30 @@
 </head>
 
 <body>
+    <nav id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">About</a>
+            <a href="contactme.html">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1lBpxFqDCa9RoWSw57ecyVqrIoJjcFMNN/view">Resume</a>
+        </div>
+    </nav>
+
+
+    <header class="homeHeader" style="background-image: url('images/HeaderBackground.png');">
+        <div class="nav_bar">
+            <a id="logo" href="index.html"><img alt="logo" src="images/LOGO.png" width="60px"></a>
+            <span class="nav-lines" onclick="openNav()">&#9776;</span>
+        </div>
+
+        <h1>Omar Andani</h1>
+        <p class="headerP">I'm a multi-disciplinary designer with a business background interested in designing
+            solutions for a diverse range of human-centered needs. I genuinely enjoy building collaborative
+            relationships, overcoming new challenges, and creating a positive impact through design.</p>
+        <a href="https://drive.google.com/file/d/1lBpxFqDCa9RoWSw57ecyVqrIoJjcFMNN/view">Resume</a>
+
+    </header>
 
     <h3>Contact Form</h3>
 
@@ -78,6 +102,17 @@
             </div>
         </section>
     </footer>
+
+    <script>
+        function openNav() {
+            document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+            document.getElementById("myNav").style.height = "0%";
+        }
+    </script>
+
 </body>
 
 </html>
