@@ -434,6 +434,7 @@ h3 {
   list-style-position: inside;
   list-style-type: disc;
 }
+
 #section6_CS {
   display: flex;
   flex-flow: column wrap;
