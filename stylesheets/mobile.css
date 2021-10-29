@@ -374,8 +374,9 @@ footer {
 
 #arrows {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column;
   justify-content: space-around;
+  margin-left: 60px;
 }
 
 #video-section {
@@ -384,14 +385,10 @@ footer {
   padding-bottom: 50px;
 }
 
-/* .bulletPoints li {
-  text-align: center;
+.bulletPoints {
   list-style-position: inside;
-  font-weight: 300;
-  margin: 0px 72px 18px 72px;
-  font-size: 14px;
-
-} */
+  padding-left: 0px;
+}
 
 
 .video {
@@ -481,36 +478,42 @@ footer {
 
 
 /* Arrows */
-.icon {
-  transform: translate(-50%,-50%);
-  width: 80px;
-  height: 60px;
-  cursor: pointer;
+#arrow_header {
+    display: flex;
+    width: 480px;
+    height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
 }
 
 .arrow {
-  width: 90%;
-  height: 10px;
-  background-color: black;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
-  animation: arrow 700ms linear infinite;
+	width: 3vmin;
+	height: 3vmin;
+	background: transparent;
+	border-top: 1vmin solid black;
+	border-right: 1vmin solid black;
+	box-shadow: 0 0 0 lightgray;
+	transition: all 200ms ease;
 }
 
-.arrow::after, .arrow::before {
-  content: '';
-  width: 60%;
-  height: 10px;
-  right: -8px;
-  background-color: black;
+.left {
+	left: 0;
+	transform: translate3d(0,-50%,0) rotate(-135deg);
 }
 
-.arrow::after {
-  top: -12px;
-  transform: rotate(45deg);
+.right {
+	right: 0;
+	transform: translate3d(0,-50%,0) rotate(45deg);
+}
+	
+.right:hover {
+	border-color: orange;
+	box-shadow: 0.5vmin -0.5vmin 0 white;
 }
 
-.arrow::before {
-  top: 12px;
-  box-shadow: 0 3px 5px rgba(0, 0, 0, .2);
-  transform: rotate(-45deg);
+.left:hover {
+	border-color: orange;
+	box-shadow: 0.5vmin -0.5vmin 0 white;
 }

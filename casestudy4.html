@@ -81,9 +81,9 @@
         </section>
     </main>
 
-    <div id="arrows" class="icon">
-        <a class="arrow" href="casestudy3.html"><img src="" alt="previous"></a>
-        <a class="arrow" href="casestudy1.html"><img src="" alt="next"></a>
+    <div id="arrow_header">
+        <a href="casestudy3.html" class="arrow left"></a>
+        <a href="casestudy1.html" class="arrow right"></a>
     </div>
 
     <footer>
@@ -117,21 +117,7 @@
             document.getElementById("myNav").style.height = "0%";
         }
 
-        // Arrows
 
-        const $icon = document.querySelector('.icon');
-        const $arrow = document.querySelector('.arrow');
-
-        $icon.onclick = () => {
-            $arrow.animate([
-                { left: '0' },
-                { left: '10px' },
-                { left: '0' }
-            ], {
-                duration: 700,
-                iterations: Infinity
-            });
-        }
 
     </script>
 </body>
