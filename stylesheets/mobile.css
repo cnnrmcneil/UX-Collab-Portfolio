@@ -230,7 +230,7 @@ footer {
   font-style: normal;
   font-weight: normal;
   color: #cf9812;
-  font-size: 14px;
+  font-size: 16px;
   height: 2vh;
   text-decoration: none;
 }
@@ -250,7 +250,7 @@ footer {
   justify-content: flex-end;
   align-items: flex-end;
   width: 50%;
-  font-size: 9px;
+
   font-weight: bold;
   padding: 5px 40px 20px 0px;
   color: white;
@@ -266,7 +266,6 @@ footer {
   align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  font-size: 9px;
   flex-wrap: wrap;
   padding: 5px 0px 0px 35px;
   border-left: 1px solid rgba(255, 255, 255, 0.2);
@@ -279,9 +278,16 @@ footer {
 }
 
 .fab {
-  margin: 10px;
+  margin: 14px 10px 10px 10px;
   text-decoration: none;
   color: #cf9812;
+  font-size: 14px;
+}
+
+#copyright{
+  padding-top: 30px;
+  font-size: 8px;
+  background-color: #181818;
 }
 
 /* Case Studies */
