@@ -59,6 +59,7 @@ h3 {
   position: relative;
   top: 400px;
   font-size: 24px;
+  text-decoration: none;
 }
 
 .bioCaseContainer {
@@ -249,6 +250,7 @@ footer {
   height: 2vh;
   padding-top: 54px;
   padding-right: 50px;
+  text-decoration: none;
 }
 
 #contactInfo {
@@ -303,6 +305,12 @@ footer {
   margin: 10px;
   text-decoration: none;
   color: #cf9812;
+}
+
+#copyright{
+  padding-top: 30px;
+  font-size: 14px;
+  background-color: #181818;
 }
 
 /* Case Studies */
