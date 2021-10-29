@@ -84,18 +84,25 @@ h3 {
 }
 
 #firstCaseStudy {
-  background-image: url("../images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 20px;
   margin-bottom: 10px;
   animation-duration: 3s;
+  max-width: 307.7px;
+  max-height: 201.8;
   width: 90vw;
   height: 24vh;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
   transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url("../images/3rd\ box.png");
 }
 #firstCaseStudy:hover {
   transform: scale(1.04);
@@ -105,20 +112,24 @@ h3 {
   font-size: 16px;
   color: white;
   margin-left: 4px;
+  text-align: start !important;
 }
 
 #firstCaseStudy .description {
   color: white;
   font-size: 10px;
   margin-right: 4px;
+  text-align: start !important;
+  max-width: 132px;
 }
 
 #secondCaseStudy {
-  background-image: url("../images/yoga.jpg");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  max-width: 310.7px;
+  max-height: 205.8;
   animation-duration: 3s;
   width: 90vw;
   height: 24vh;
@@ -126,6 +137,12 @@ h3 {
   align-items: flex-end;
   justify-content: space-between;
   transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url("../images/yoga.jpg");
 }
 #secondCaseStudy:hover {
   transform: scale(1.04);
@@ -136,28 +153,37 @@ h3 {
   width: 40vw;
   color: white;
   margin-left: 4px;
+  text-align: start !important;
 }
 
 #secondCaseStudy .description {
   font-size: 10px;
   color: white;
   margin-right: 4px;
+  text-align: start !important;
+  max-width: 132px;
 }
 
 #thirdCaseStudy {
-  background-image: url("../images/4th\ box.png");
-
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 10px;
+  max-width: 310.7px;
+  max-height: 205.8;
   animation-duration: 3s;
   width: 90vw;
   height: 24vh;
   display: flex;
-  justify-content: space-between;
   align-items: flex-end;
+  justify-content: space-between;
   transition: all 0.2s ease-in-out;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url("../images/4th\ box.png");
 }
 #thirdCaseStudy:hover {
   transform: scale(1.04);
@@ -165,27 +191,38 @@ h3 {
 
 #thirdCaseStudy .project_name {
   font-size: 16px;
+  width: 40vw;
   color: white;
   margin-left: 4px;
+  text-align: start !important;
 }
 
 #thirdCaseStudy .description {
   font-size: 10px;
   color: white;
   margin-right: 4px;
+  text-align: start !important;
+  max-width: 132px;
 }
 #fourthCaseStudy {
-  background-image: url("../images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
   margin-bottom: 20px;
   animation-duration: 3s;
+  max-width: 307.7px;
+  max-height: 201.8;
   width: 90vw;
   height: 24vh;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url(../), url("../images/2nd\ box.png");
 }
 #fourthCaseStudy:hover {
   transform: scale(1.04);
@@ -201,6 +238,7 @@ h3 {
   font-size: 10px;
   margin-right: 4px;
   color: white;
+  max-width: 132px;
 }
 
 /* Footer */
