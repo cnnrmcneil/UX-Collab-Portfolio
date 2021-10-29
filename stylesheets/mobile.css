@@ -36,7 +36,8 @@ h3 {
 }
 
 #logo {
-  padding-left: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
 }
 
 .homeHeader h1 {
@@ -44,6 +45,8 @@ h3 {
   color: white;
   font-weight: bold;
   margin-top: 0px;
+  position: relative;
+  bottom: 45px;
 }
 .headerP {
   display: inline;
@@ -55,7 +58,8 @@ h3 {
   justify-content: flex-start;
   height: 10vh;
 
-  padding-top: 80px;
+  position: relative;
+  bottom: 80px;
 }
 
 .homeHeader a {
@@ -64,6 +68,8 @@ h3 {
   text-align: start;
   text-decoration: underline;
   padding-bottom: 20px;
+  position: relative;
+  bottom: 40px;
 }
 
 .bioCase {
@@ -118,6 +124,7 @@ h3 {
   width: 90vw;
   height: 24vh;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   transition: all 0.2s ease-in-out;
 }
@@ -494,9 +501,10 @@ footer {
 .nav-lines {
   font-size: 30px;
   cursor: pointer;
-  /* position: fixed; */
+  position: fixed;
   color: #cf9812;
-  padding: 20px 10px;
+  top: 15px;
+  right: 15px;
 }
 
 .nav_bar {
@@ -523,8 +531,8 @@ footer {
   width: 3vmin;
   height: 3vmin;
   background: transparent;
-  border-top: 1vmin solid #CF9812;
-  border-right: 1vmin solid #CF9812;
+  border-top: 1vmin solid #cf9812;
+  border-right: 1vmin solid #cf9812;
   box-shadow: 0 0 0 lightgray;
   transition: all 100ms ease;
 }
@@ -541,12 +549,46 @@ footer {
 
 .right:hover {
   border-color: black;
-  box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
+  box-shadow: 0.5vmin -0.5vmin 0 #cf9812;
 }
 
 .left:hover {
 	border-color: black;
 	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
+}
+
+#aboutmeBody {
+  background-color: black;
+}
+
+#goldText {
+  width: 30%;
+}
+#aboutme_header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-top: 90px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+#aboutme_header div {
+}
+#aboutme_header div h1 {
+  font-size: 40px;
+}
+.aboutHeaderP {
+  font-size: 15px;
+}
+.collage {
+  max-width: 327px;
+  margin: auto;
+  padding-bottom: 60px;
+  max-height: auto;
 }
 .collage :nth-child(1) {
   vertical-align: bottom;
