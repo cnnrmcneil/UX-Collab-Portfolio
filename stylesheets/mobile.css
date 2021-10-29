@@ -512,8 +512,99 @@ footer {
 }
 
 .left:hover {
+<<<<<<< HEAD
 	border-color: black;
 	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
+=======
+  border-color: #cf9812;
+  box-shadow: 0.5vmin -0.5vmin 0 black;
 }
 
+#aboutmeBody {
+  background-color: black;
+}
 
+#goldText {
+  width: 30%;
+}
+#aboutme_header {
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 80%;
+  padding-top: 90px;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+#aboutme_header div {
+}
+#aboutme_header div h1 {
+  font-size: 40px;
+}
+.aboutHeaderP {
+  font-size: 15px;
+}
+.collage {
+  max-width: 327px;
+  margin: auto;
+  padding-bottom: 60px;
+  max-height: auto;
+>>>>>>> bd6dfdf9e2b26ecc1898693b7ac5a8feba164ce5
+}
+.collage :nth-child(1) {
+  vertical-align: bottom;
+  margin-right: 4px;
+  padding-bottom: 8px;
+  width: 100px;
+  margin-left: 4px;
+  height: auto;
+}
+.collage :nth-child(2) {
+  vertical-align: top;
+
+  height: auto;
+  width: 100px;
+  margin-right: 4px;
+}
+.collage :nth-child(3) {
+  vertical-align: bottom;
+  padding-bottom: 8px;
+  width: 100px;
+  height: auto;
+}
+.collage :nth-child(4) {
+  vertical-align: top;
+  margin-left: 4px;
+  width: 100px;
+  margin-right: 4px;
+  height: auto;
+}
+.collage :nth-child(5) {
+  vertical-align: top;
+  position: relative;
+  bottom: 82px;
+
+  height: auto;
+  width: 100px;
+  margin-right: 4px;
+}
+.collage :nth-child(6) {
+  vertical-align: top;
+  width: 100px;
+  margin-right: 4px;
+  height: auto;
+}
+.cs_body_textabout {
+  font-size: 16px;
+  vertical-align: top;
+}
+.finalP {
+  max-width: 80%;
+  margin: auto;
+  position: relative;
+  bottom: 60px;
+  color: white;
+}
