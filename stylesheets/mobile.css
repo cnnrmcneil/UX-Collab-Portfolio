@@ -395,6 +395,12 @@ footer {
   height: 100%;
 }
 
+#aboutme_header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 
 /* Nav Bar */
 .overlay {
@@ -458,13 +464,6 @@ footer {
   color: white;
   padding: 20px 10px;
 }
-
-/* .closebtn{
-    position: absolute;
-    left: 450px;
-    top: -100px;
-    color: red;
-} */
 
 .nav_bar {
   display: flex;
