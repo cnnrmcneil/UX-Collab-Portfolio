@@ -19,8 +19,8 @@ body {
 #logo {
   position: absolute;
   top: 40px;
-  left: 20px;
-  width: 100%;
+  left: 30px;
+  width: 90%;
 }
 .homeHeader h1 {
   position: relative;
@@ -612,9 +612,8 @@ h3 {
   cursor: pointer;
   position: fixed;
   color: #cf9812;
-  padding: 20px 10px;
-  top: 0;
-  right: 0;
+  top: 20px;
+  right: 20px;
 }
 
 .nav_bar {
@@ -625,7 +624,6 @@ h3 {
   justify-content: space-between;
   width: 100%;
 }
-
 
 /* Arrows */
 #arrow_header {
@@ -664,6 +662,6 @@ h3 {
 }
 
 .left:hover {
-	border-color: white;
-	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
+  border-color: white;
+  box-shadow: 0.5vmin -0.5vmin 0 #cf9812;
 }
