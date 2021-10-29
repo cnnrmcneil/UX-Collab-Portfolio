@@ -1,6 +1,17 @@
-body {
-  margin: 0;
+main, body {
+  margin: 0px;
+  background-color: #1f1f1f;
+
 }
+
+h2,
+h3 {
+  font-weight: 900;
+  font-size: 20px;
+  margin: 0px 0px 12px 0px;
+  color: white;
+}
+
 .homeHeader {
   width: 100%;
   display: flex;
@@ -303,13 +314,20 @@ footer {
   margin-top: 48px;
   margin-bottom: 48px;
   font-size: 24px;
+  background-color: rgba(32,32,32,1);
 }
 #section1_CS img {
   width: 70% !important;
   align-self: center;
 }
+
+#section1_CS h1, p {
+  text-align: center;
+  color: white;
+}
+
 #liststudy2 li {
-  list-style: none;
+  list-style: disc;
 }
 
 #section1_CS h1 {
@@ -324,15 +342,35 @@ footer {
   margin: 0px 242px 20px 242px;
   font-weight: 300 !important;
   font-size: 24px;
+  color: white;
 }
 #cs1_body {
   font-family: "Lato", sans-serif !important;
 }
 #featureInfoCS {
-  /* background-color: brown; */
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 18px;
+  height: 80px;
+  margin-bottom: 18px;
+}
+
+.featurePlatform{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 50%;
+  padding: 5px 40px 20px 0px;
+}
+
+.featureRole{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
+  width: 50%;
+  padding: 5px 0px 0px 35px;
 }
 
 #section2_CS {
@@ -344,6 +382,7 @@ footer {
   text-align: center;
   justify-content: space-evenly;
   margin-top: 50px;
+  background-color: #000000;
 }
 
 #section2_CS div {
@@ -354,7 +393,7 @@ footer {
 }
 
 #section2_CS ul li {
-  list-style: none;
+  list-style: disc;
   text-align: start;
 }
 #quotes {
@@ -369,12 +408,13 @@ footer {
   justify-content: space-evenly;
   text-align: center;
   margin-top: 50px;
+  background-color: #1f1f1f;
 }
 #comparison {
   width: 80% !important;
 }
 #section3_CS ul li {
-  list-style: none;
+  list-style: disc;
 }
 h3 {
   margin-top: 0px;
@@ -435,6 +475,7 @@ h3 {
   text-align: center;
   justify-content: space-evenly;
   margin-top: 50px;
+  background-color: #000000;
 }
 
 #section5_CS {
@@ -443,10 +484,11 @@ h3 {
   margin-top: 50px;
   text-align: center;
   justify-content: space-evenly;
+  background-color: #1f1f1f;
 }
 
 #section5_CS ul li {
-  list-style: none;
+  list-style: disc;
 }
 .bulletPoints {
   text-align: center;
@@ -461,6 +503,7 @@ h3 {
   margin-top: 50px;
   text-align: center;
   justify-content: space-evenly;
+  background-color: #000;
 }
 
 #section7_CS {
@@ -469,11 +512,13 @@ h3 {
   margin-top: 50px;
   text-align: center;
   justify-content: space-evenly;
+  background-color: #1f1f1f;
 }
 
 #takeawaysCS ul li {
-  list-style: none;
+  list-style: disc;
   text-align: start;
+  color: white;
 }
 
 #arrows {

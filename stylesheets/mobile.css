@@ -7,6 +7,7 @@ h1 {
 main,
 body {
   background-color: #1f1f1f;
+  margin: 0px;
 }
 
 h2,
@@ -42,7 +43,6 @@ h3 {
 }
 
 .homeHeader h1 {
-  /* padding-top: 60px; */
   color: white;
   font-weight: bold;
   margin-top: 0px;
@@ -58,7 +58,6 @@ h3 {
   width: 75%;
   justify-content: flex-start;
   height: 10vh;
-
   position: relative;
   bottom: 80px;
 }
@@ -576,8 +575,10 @@ p {
   padding-bottom: 10px;
   margin: 0 auto;
 }
+
 #aboutme_header div {
 }
+
 #aboutme_header div h1 {
   font-size: 40px;
 }
