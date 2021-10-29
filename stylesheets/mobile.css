@@ -199,7 +199,6 @@ footer {
   flex-direction: row;
   justify-content: space-between;
   padding: 20px 15px 50px 10px;
-  border-bottom: 1px solid #282828;
 }
 
 #logoResume img {

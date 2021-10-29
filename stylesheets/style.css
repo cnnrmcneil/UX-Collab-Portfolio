@@ -11,3 +11,9 @@ ul li a {
   text-decoration: none;
   color: black;
 } */
+
+hr{
+  border: 1px solid black;
+  width: 90%;
+  margin-bottom: 0px;
+}
