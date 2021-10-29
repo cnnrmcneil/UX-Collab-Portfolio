@@ -189,7 +189,7 @@ h3 {
 }
 
 footer {
-  background-color: rgba(208, 208, 208, 1);
+  background-color: #181818;
   display: flex;
   flex-direction: column;
 }
@@ -212,7 +212,7 @@ footer {
   text-decoration: underline;
   font-style: normal;
   font-weight: normal;
-  color: black;
+  color: #CF9812;
   font-size: 14px;
   height: 2vh;
 }
@@ -229,38 +229,41 @@ footer {
 #contact {
   display: flex;
   flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
   width: 50%;
-  font-size: 7px;
+  font-size: 9px;
   font-weight: bold;
-  padding: 5px 0px 0px 30px;
+  padding: 5px 40px 20px 0px;
+  color: white;
 }
 #contact a {
   text-decoration: none;
-  color: black;
+  color:#CF9812;
 }
 
 #social {
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
+  flex-direction: column;
+  align-items: flex-start;
   justify-content: flex-start;
   width: 50%;
-  font-size: 7px;
+  font-size: 9px;
   flex-wrap: wrap;
-  padding: 5px 0px 0px 30px;
+  padding: 5px 0px 0px 35px;
   border-left: 1px solid #282828;
 }
-.socialsBox :first-child {
-  margin-left: 0;
-}
+
 #social p {
   font-weight: bold;
   height: 0px;
-  width: 100%;
+  color: white;
 }
+
 .fab {
   margin: 10px;
   text-decoration: none;
+  color: #CF9812;
 }
 
 /* Case Studies */
@@ -435,7 +438,7 @@ footer {
 
 .overlay a:hover,
 .overlay a:focus {
-  color: #f1f1f1;
+  color: #CF9812;
 }
 
 .overlay .closebtn {
@@ -461,7 +464,7 @@ footer {
   font-size: 30px;
   cursor: pointer;
   /* position: fixed; */
-  color: white;
+  color: #CF9812;
   padding: 20px 10px;
 }
 
@@ -493,7 +496,7 @@ footer {
 	border-top: 1vmin solid black;
 	border-right: 1vmin solid black;
 	box-shadow: 0 0 0 lightgray;
-	transition: all 200ms ease;
+	transition: all 100ms ease;
 }
 
 .left {
@@ -507,11 +510,11 @@ footer {
 }
 	
 .right:hover {
-	border-color: orange;
-	box-shadow: 0.5vmin -0.5vmin 0 white;
+	border-color: #CF9812;
+	box-shadow: 0.5vmin -0.5vmin 0 black;
 }
 
 .left:hover {
-	border-color: orange;
-	box-shadow: 0.5vmin -0.5vmin 0 white;
+	border-color: #CF9812;
+	box-shadow: 0.5vmin -0.5vmin 0 black;
 }
