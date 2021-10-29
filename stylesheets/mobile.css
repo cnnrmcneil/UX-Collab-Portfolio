@@ -25,7 +25,7 @@ h3 {
 }
 
 #logo {
-  padding-left: 5px;
+  padding-left: 20px;
 }
 
 .homeHeader h1 {
@@ -107,6 +107,7 @@ h3 {
   width: 90vw;
   height: 24vh;
   display: flex;
+  align-items: flex-end;
   justify-content: space-between;
   transition: all 0.2s ease-in-out;
 }
@@ -490,8 +491,8 @@ footer {
   width: 3vmin;
   height: 3vmin;
   background: transparent;
-  border-top: 1vmin solid #CF9812;
-  border-right: 1vmin solid #CF9812;
+  border-top: 1vmin solid #cf9812;
+  border-right: 1vmin solid #cf9812;
   box-shadow: 0 0 0 lightgray;
   transition: all 100ms ease;
 }
@@ -508,14 +509,10 @@ footer {
 
 .right:hover {
   border-color: black;
-  box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
+  box-shadow: 0.5vmin -0.5vmin 0 #cf9812;
 }
 
 .left:hover {
-<<<<<<< HEAD
-	border-color: black;
-	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
-=======
   border-color: #cf9812;
   box-shadow: 0.5vmin -0.5vmin 0 black;
 }
@@ -552,7 +549,6 @@ footer {
   margin: auto;
   padding-bottom: 60px;
   max-height: auto;
->>>>>>> bd6dfdf9e2b26ecc1898693b7ac5a8feba164ce5
 }
 .collage :nth-child(1) {
   vertical-align: bottom;
