@@ -301,6 +301,7 @@ footer {
 .cs_body_text {
   text-align: center;
   margin: 0px 242px 20px 242px;
+  font-weight: 300 !important;
   font-size: 24px;
 }
 #cs1_body {
@@ -357,6 +358,7 @@ footer {
 h3 {
   margin-top: 0px;
   margin-bottom: 12px;
+  font-size: 32px;
 }
 #reliable {
   width: 50% !important;
@@ -428,7 +430,9 @@ h3 {
 }
 .bulletPoints {
   text-align: center;
+  padding-left: 0px;
   list-style-position: inside;
+  list-style-type: disc;
 }
 
 #section6_CS {
@@ -467,4 +471,62 @@ h3 {
 .video {
   width: 100%;
   height: 100%;
+}
+.aboutmeBody {
+  background-color: black;
+}
+#aboutme_header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+
+  max-width: 984px;
+  margin: auto;
+  padding-top: 169px;
+  padding-bottom: 111px;
+}
+#aboutme_header div {
+  width: 505px;
+}
+#aboutme_header div h1 {
+  font-size: 40px;
+}
+.aboutHeaderP {
+  font-size: 20px;
+}
+.collage {
+  max-width: 984px;
+  margin: auto;
+}
+.collage :nth-child(1) {
+  vertical-align: bottom;
+  padding-bottom: 8px;
+}
+.collage :nth-child(2) {
+  vertical-align: top;
+}
+.collage :nth-child(3) {
+  vertical-align: bottom;
+  padding-bottom: 8px;
+}
+.collage :nth-child(4) {
+  vertical-align: top;
+}
+.collage :nth-child(5) {
+  vertical-align: top;
+  position: relative;
+  bottom: 265px;
+}
+.collage :nth-child(6) {
+  vertical-align: top;
+}
+.cs_body_textabout {
+  font-size: 38px;
+}
+.finalP {
+  max-width: 984px;
+  margin: auto;
+  position: relative;
+  bottom: 150px;
 }
