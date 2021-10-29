@@ -1,7 +1,7 @@
-main, body {
+main,
+body {
   margin: 0px;
   background-color: #1f1f1f;
-
 }
 
 h2,
@@ -83,7 +83,12 @@ h3 {
 }
 
 #firstCaseStudy {
-  background-image: url("../images/yoga.jpg");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url("../images/3rd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -106,6 +111,7 @@ h3 {
   width: 30vw;
   color: white;
   margin-left: 4px;
+  text-align: start;
 }
 
 #firstCaseStudy .description {
@@ -116,7 +122,12 @@ h3 {
 }
 
 #secondCaseStudy {
-  background-image: url("../images/2nd\ box.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url("../images/yoga.jpg");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -140,6 +151,7 @@ h3 {
   width: 40vw;
   color: white;
   margin-left: 4px;
+  text-align: start;
 }
 
 #secondCaseStudy .description {
@@ -150,7 +162,12 @@ h3 {
 }
 
 #thirdCaseStudy {
-  background-image: url("../images/3rd\ box.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url("../images/4th\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -174,6 +191,7 @@ h3 {
   width: 40vw;
   color: white;
   margin-left: 4px;
+  text-align: start;
 }
 
 #thirdCaseStudy .description {
@@ -183,7 +201,12 @@ h3 {
   width: 20vw;
 }
 #fourthCaseStudy {
-  background-image: url("../images/4th\ box.png");
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0)
+    ),
+    url(../), url("../images/2nd\ box.png");
   background-size: cover;
   border-radius: 16px;
   margin-top: 10px;
@@ -207,6 +230,7 @@ h3 {
   width: 40vw;
   color: white;
   margin-left: 4px;
+  text-align: start;
 }
 
 #fourthCaseStudy .description {
@@ -307,7 +331,7 @@ footer {
   color: #cf9812;
 }
 
-#copyright{
+#copyright {
   padding-top: 30px;
   font-size: 14px;
   background-color: #181818;
@@ -322,14 +346,15 @@ footer {
   margin-top: 48px;
   margin-bottom: 48px;
   font-size: 24px;
-  background-color: rgba(32,32,32,1);
+  background-color: rgba(32, 32, 32, 1);
 }
 #section1_CS img {
   width: 70% !important;
   align-self: center;
 }
 
-#section1_CS h1, p {
+#section1_CS h1,
+p {
   text-align: center;
   color: white;
 }
@@ -364,7 +389,7 @@ footer {
   margin-bottom: 18px;
 }
 
-.featurePlatform{
+.featurePlatform {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -372,7 +397,7 @@ footer {
   padding: 5px 40px 20px 0px;
 }
 
-.featureRole{
+.featureRole {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
