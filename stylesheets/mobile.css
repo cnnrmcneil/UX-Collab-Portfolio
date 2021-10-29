@@ -424,7 +424,7 @@ footer {
 .video-section {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 50px;
+  padding: 50px 0px;
 }
 
 .bulletPoints {
@@ -548,12 +548,12 @@ footer {
 }
 
 .right:hover {
-  border-color: black;
+  border-color: white;
   box-shadow: 0.5vmin -0.5vmin 0 #cf9812;
 }
 
 .left:hover {
-	border-color: black;
+	border-color: white;
 	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
 }
 
