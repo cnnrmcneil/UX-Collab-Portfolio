@@ -301,6 +301,7 @@ footer {
 .cs_body_text {
   text-align: center;
   margin: 0px 242px 20px 242px;
+  font-weight: 300 !important;
   font-size: 24px;
 }
 #cs1_body {
@@ -357,6 +358,7 @@ footer {
 h3 {
   margin-top: 0px;
   margin-bottom: 12px;
+  font-size: 32px;
 }
 #reliable {
   width: 50% !important;
@@ -428,7 +430,9 @@ h3 {
 }
 .bulletPoints {
   text-align: center;
+  padding-left: 0px;
   list-style-position: inside;
+  list-style-type: disc;
 }
 #section6_CS {
   display: flex;
