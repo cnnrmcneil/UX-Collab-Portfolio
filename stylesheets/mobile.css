@@ -188,6 +188,7 @@ h3 {
   color: white;
 }
 
+/* Footer */
 footer {
   background-color: #181818;
   display: flex;
@@ -251,7 +252,7 @@ footer {
   font-size: 9px;
   flex-wrap: wrap;
   padding: 5px 0px 0px 35px;
-  border-left: 1px solid #282828;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 #social p {
@@ -478,7 +479,6 @@ footer {
 /* Arrows */
 #arrow_header {
   display: flex;
-  width: 480px;
   height: 50px;
   flex-direction: row;
   align-items: center;
@@ -490,8 +490,8 @@ footer {
   width: 3vmin;
   height: 3vmin;
   background: transparent;
-  border-top: 1vmin solid black;
-  border-right: 1vmin solid black;
+  border-top: 1vmin solid #CF9812;
+  border-right: 1vmin solid #CF9812;
   box-shadow: 0 0 0 lightgray;
   transition: all 100ms ease;
 }
@@ -507,13 +507,13 @@ footer {
 }
 
 .right:hover {
-  border-color: #cf9812;
-  box-shadow: 0.5vmin -0.5vmin 0 black;
+  border-color: black;
+  box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
 }
 
 .left:hover {
-	border-color: #CF9812;
-	box-shadow: 0.5vmin -0.5vmin 0 black;
+	border-color: black;
+	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
 }
 
 
