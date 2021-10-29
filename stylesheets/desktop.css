@@ -44,9 +44,10 @@ body {
 
 .homeHeader a {
   height: 2vh;
-  color: white;
+  color: rgba(207, 152, 18, 1);
   position: relative;
-  top: 300px;
+  top: 400px;
+  font-size: 24px;
 }
 
 .bioCaseContainer {
@@ -89,16 +90,17 @@ body {
   transform: scale(1.04);
 }
 #firstCaseStudy .project_name {
-  font-size: 16px;
-  width: 40vw;
+  font-size: 20px;
+  width: 30vw;
   color: white;
   margin-left: 4px;
 }
 
 #firstCaseStudy .description {
   color: white;
-  font-size: 10px;
+  font-size: 12px;
   margin-right: 4px;
+  width: 20vw;
 }
 
 #secondCaseStudy {
@@ -122,16 +124,17 @@ body {
 }
 
 #secondCaseStudy .project_name {
-  font-size: 16px;
+  font-size: 20px;
   width: 40vw;
   color: white;
   margin-left: 4px;
 }
 
 #secondCaseStudy .description {
-  font-size: 10px;
+  font-size: 12px;
   color: white;
   margin-right: 4px;
+  width: 20vw;
 }
 
 #thirdCaseStudy {
@@ -155,16 +158,17 @@ body {
 }
 
 #thirdCaseStudy .project_name {
-  font-size: 16px;
+  font-size: 20px;
   width: 40vw;
   color: white;
   margin-left: 4px;
 }
 
 #thirdCaseStudy .description {
-  font-size: 10px;
+  font-size: 12px;
   color: white;
   margin-right: 4px;
+  width: 20vw;
 }
 #fourthCaseStudy {
   background-image: url("../images/4th\ box.png");
@@ -187,16 +191,17 @@ body {
 }
 
 #fourthCaseStudy .project_name {
-  font-size: 16px;
+  font-size: 20px;
   width: 40vw;
   color: white;
   margin-left: 4px;
 }
 
 #fourthCaseStudy .description {
-  font-size: 10px;
+  font-size: 12px;
   color: white;
   margin-right: 4px;
+  width: 20vw;
 }
 
 /* Footer */

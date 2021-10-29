@@ -1,10 +1,11 @@
-h1{
+h1 {
   font-size: 28px;
   margin: 0px 0px 12px 0px;
   color: white;
 }
 
-main, body{
+main,
+body {
   background-color: #1f1f1f;
 }
 
@@ -64,7 +65,7 @@ h3 {
 
 .homeHeader a {
   height: 2vh;
-  color: white;
+  color: rgba(207, 152, 18, 1);
   text-align: start;
   text-decoration: underline;
   padding-bottom: 20px;
@@ -103,7 +104,6 @@ h3 {
 
 #firstCaseStudy .project_name {
   font-size: 16px;
-  width: 40vw;
   color: white;
   margin-left: 4px;
 }
@@ -166,7 +166,6 @@ h3 {
 
 #thirdCaseStudy .project_name {
   font-size: 16px;
-  width: 40vw;
   color: white;
   margin-left: 4px;
 }
@@ -195,7 +194,6 @@ h3 {
 
 #fourthCaseStudy .project_name {
   font-size: 16px;
-  width: 40vw;
   color: white;
   margin-left: 4px;
 }
@@ -292,10 +290,11 @@ footer {
   text-align: center;
   justify-content: space-evenly;
   padding: 48px 0px;
-  background-color: rgba(32,32,32,1);
+  background-color: rgba(32, 32, 32, 1);
 }
 
-#section1_CS h1, p {
+#section1_CS h1,
+p {
   text-align: center;
   color: white;
 }
@@ -324,7 +323,7 @@ footer {
   margin-bottom: 18px;
 }
 
-.featurePlatform{
+.featurePlatform {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -332,7 +331,7 @@ footer {
   padding: 5px 40px 20px 0px;
 }
 
-.featureRole{
+.featureRole {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -554,8 +553,8 @@ footer {
 }
 
 .left:hover {
-	border-color: white;
-	box-shadow: 0.5vmin -0.5vmin 0 #CF9812;
+  border-color: white;
+  box-shadow: 0.5vmin -0.5vmin 0 #cf9812;
 }
 
 #aboutmeBody {
